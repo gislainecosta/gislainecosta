@@ -18,12 +18,3 @@ Meu nome é Gislaine Costa Pereira, sou desenvolvedora Web Full Stack, apaixonad
 
 
 ## Minha semana 📅
-
-<!--START_SECTION:waka-->
-```text
-Week: 02 August, 2020 - 09 August, 2020
-
-JavaScript   0 secs          █████████████████████░░░░   86.23 % 
-CSS          0 secs          ███░░░░░░░░░░░░░░░░░░░░░░   13.77 %
-```
-<!--END_SECTION:waka-->
