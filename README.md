@@ -9,8 +9,8 @@
 
 </div>
 
-Meu nome é Gislaine Costa Pereira, sou desenvolvedora Web Full Stack, apaixonada por tecnologia e programação.
+Meu nome é Gislaine Costa Pereira, sou estudante de Web Full Stack, apaixonada por tecnologia e programação.
 
-## Techs 🖥️ 
+## Linguagens 🖥️ 
 
 - HTML, CSS, JavaScript, TypeScript, SQL, **React.js**, Node.js e mais.
