@@ -17,4 +17,9 @@ Meu nome é Gislaine Costa Pereira, sou estudante de Web Full Stack, apaixonada 
 
 ## Minha semana
 <!--START_SECTION:waka-->
+```text
+CSS          1 hr 31 mins    ██████████████░░░░░░░░░░░   56.42 % 
+JavaScript   1 hr 10 mins    ███████████░░░░░░░░░░░░░░   43.58 % 
+JSON         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
+```
 <!--END_SECTION:waka-->
