@@ -14,3 +14,7 @@ Meu nome é Gislaine Costa Pereira, sou estudante de Web Full Stack, apaixonada 
 ## Linguagens 🖥️ 
 
 - HTML, CSS, JavaScript, TypeScript, SQL, **React.js**, Node.js e mais.
+
+## Minha semana
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
