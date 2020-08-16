@@ -10,7 +10,6 @@
 Meu nome é Gislaine Costa Pereira, sou estudante de Web Full Stack, apaixonada por tecnologia e programação.
 
 <br>
-<br>
 
 ## Linguagens 🖥️ 
 
