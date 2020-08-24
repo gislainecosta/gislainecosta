@@ -31,10 +31,10 @@ Meu nome é Gislaine Costa Pereira, sou estudante de Web Full Stack, apaixonada 
 ```text
 Week: 16 August, 2020 - 23 August, 2020
 
-JavaScript   18 hrs 39 mins  ███████████▓░░░░░░░░░░░░░   46.17 % 
-CSS          11 hrs 51 mins  ███████▒░░░░░░░░░░░░░░░░░   29.35 % 
-TypeScript   7 hrs 38 mins   ████▓░░░░░░░░░░░░░░░░░░░░   18.93 % 
-JSON         1 hr 16 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.18 % 
-Other        52 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.18 % 
+JavaScript   16 hrs 45 mins  ██████████░░░░░░░░░░░░░░░   40.42 % 
+CSS          12 hrs 12 mins  ███████▒░░░░░░░░░░░░░░░░░   29.46 % 
+TypeScript   7 hrs 38 mins   ████▓░░░░░░░░░░░░░░░░░░░░   18.44 % 
+HTML         2 hrs 36 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   06.29 % 
+JSON         1 hr 16 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.09 % 
 ```
 <!--END_SECTION:waka-->
