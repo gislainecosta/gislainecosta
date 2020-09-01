@@ -29,7 +29,7 @@ Meu nome é Gislaine Costa Pereira, sou estudante de Web Full Stack, apaixonada 
 ## Minha semana 📅
 <!--START_SECTION:waka-->
 ```text
-Week: 23 August, 2020 - 30 August, 2020
+Week: 24 August, 2020 - 31 August, 2020
 
 CSS          13 hrs 32 mins  ███████████░░░░░░░░░░░░░░   44.62 % 
 HTML         9 hrs           ███████▒░░░░░░░░░░░░░░░░░   29.70 % 
