@@ -7,7 +7,7 @@
 
 </div>
 
-Meu nome é Gislaine Costa Pereira, sou estudante de Web Full Stack, apaixonada por tecnologia e programação.<br>
+Meu nome é Gislaine Costa Pereira, Desenvolvedora Web Full Stack, apaixonada por tecnologia e programação.<br>
 [Meu Portfólio](http://gislaine-costa.surge.sh/) 
 
 <br>
