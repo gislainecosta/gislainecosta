@@ -30,9 +30,9 @@ Meu nome é Gislaine Costa Pereira, Desenvolvedora Web Full Stack, apaixonada po
 ## Minha semana 📅
 <!--START_SECTION:waka-->
 ```text
-Week: 04 February, 2021 - 11 February, 2021
+Week: 05 February, 2021 - 12 February, 2021
 
-TypeScript   11 hrs          ████████████████████████▓   99.30 % 
-PHP          4 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.70 % 
+TypeScript   10 hrs 47 mins  ████████████████████████▓   99.29 % 
+PHP          4 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.71 % 
 ```
 <!--END_SECTION:waka-->
