@@ -22,7 +22,7 @@ Meu nome é Gislaine Costa Pereira, Desenvolvedora Web Full Stack, apaixonada po
 <img align="left" alt="ReactJS" width="50px" src="https://www.keepsimple.com.br/site-assets/img/logo/react.png" />
 <img align="left" alt="NodeJS" width="50px" src="https://www.brainfuel.io/images/node-js-new.png" />
 <img align="left" alt="MySQL" width="50px" src="https://lcole490.github.io/pro_portfolio_noreact/images/mysql.png" />
-<img align="left" alt="GitHub" width="50px" src="https://www.nicepng.com/png/full/52-520535_free-files-github-github-icon-png-white.png" />
+<img align="left" alt="Material-Ui" width="50px" src="https://material-ui.com/static/logo.png" />
  e mais...
  <br>
  <br>
