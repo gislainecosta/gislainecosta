@@ -31,7 +31,7 @@ Desenvolvedora Web Full Stack, apaixonada por tecnologia e programação.<br>
 ## Minha semana 📅
 <!--START_SECTION:waka-->
 ```text
-Week: 25 April, 2021 - 02 May, 2021
+Week: 26 April, 2021 - 03 May, 2021
 
 EJS          2 hrs 27 mins   ████████████████████████▓   98.17 % 
 CSS          2 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.72 % 
