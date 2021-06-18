@@ -31,6 +31,8 @@ Desenvolvedora Web Full Stack, apaixonada por tecnologia e programação.<br>
 ## Minha semana 📅
 <!--START_SECTION:waka-->
 ```text
-No Activity tracked this Week
+Week: 10 June, 2021 - 17 June, 2021
+
+Other   1 min           █████████████████████████   100.00 % 
 ```
 <!--END_SECTION:waka-->
