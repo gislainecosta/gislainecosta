@@ -31,7 +31,7 @@ Desenvolvedora Web Full Stack, apaixonada por tecnologia e programação.<br>
 ## Minha semana 📅
 <!--START_SECTION:waka-->
 ```text
-Week: 11 August, 2021 - 17 August, 2021
+Week: 12 August, 2021 - 18 August, 2021
 
 JavaScript   2 mins          ████████████░░░░░░░░░░░░░   47.86 % 
 TypeScript   1 min           ███████░░░░░░░░░░░░░░░░░░   27.92 % 
