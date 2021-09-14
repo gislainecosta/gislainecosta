@@ -31,7 +31,7 @@ Desenvolvedora Web Full Stack, apaixonada por tecnologia e programação.<br>
 ## Minha semana 📅
 <!--START_SECTION:waka-->
 ```text
-Week: 06 September, 2021 - 12 September, 2021
+Week: 07 September, 2021 - 13 September, 2021
 
 LESS         5 hrs 7 mins    ████████████▓░░░░░░░░░░░░   51.26 % 
 SCSS         2 hrs 16 mins   █████▓░░░░░░░░░░░░░░░░░░░   22.71 % 
