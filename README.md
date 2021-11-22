@@ -32,7 +32,7 @@ Desenvolvedora Web Full Stack, apaixonada por tecnologia e programação.<br>
 ## Minha semana 📅
 <!--START_SECTION:waka-->
 ```text
-Week: 14 November, 2021 - 20 November, 2021
+Week: 15 November, 2021 - 21 November, 2021
 
 CSS          1 hr 55 mins    ███████████▓░░░░░░░░░░░░░   46.68 % 
 Other        1 hr 45 mins    ██████████▓░░░░░░░░░░░░░░   42.70 % 
