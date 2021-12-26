@@ -32,7 +32,7 @@ Desenvolvedora Web Full Stack, apaixonada por tecnologia e programação.<br>
 ## Minha semana 📅
 <!--START_SECTION:waka-->
 ```text
-Week: 18 December, 2021 - 24 December, 2021
+Week: 19 December, 2021 - 25 December, 2021
 
 SCSS         3 hrs 8 mins    ██████████████████▒░░░░░░   72.95 % 
 CSS          36 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.08 % 
