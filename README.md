@@ -32,7 +32,7 @@ Desenvolvedora Web Full Stack, apaixonada por tecnologia e programação.<br>
 ## Minha semana 📅
 <!--START_SECTION:waka-->
 ```text
-Week: 14 January, 2022 - 20 January, 2022
+Week: 15 January, 2022 - 21 January, 2022
 
 JavaScript   1 hr 35 mins    ██████████████████░░░░░░░   72.02 % 
 LESS         27 mins         █████▒░░░░░░░░░░░░░░░░░░░   20.78 % 
