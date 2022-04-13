@@ -8,8 +8,6 @@
 </div>
 
 Desenvolvedora Web Full Stack, apaixonada por tecnologia e programação.<br>
-[Meu Portfólio](http://gislaine-costa.surge.sh/) 
-
 <br>
 
 ## Ferramentas e Linguagens 🖥️ 
