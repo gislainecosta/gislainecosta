@@ -1,18 +1,18 @@
-# Gislaine Costa Pereira
+<h1 align="center">Olá 👋, eu sou a Gislaine</h1>
+<h3 align="center">Desenvolvedora Web Full Stack, apaixonada por tecnologia e programação.</h3>
 
-<div align="center">
-  
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=gislainecosta&label=Profile%20views&color=blueviolet&style=flat&label=Visitantes:" alt="gislainecosta" /> </p>
+<br>
+
+
+## Contatos
+
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gislainecostapereira/)](https://www.linkedin.com/in/gislainecostapereira/)
-[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gislainecosta@agronoma.eng.br)](mailto:gislainecosta@agronoma.eng.br)
-
-</div>
-
-Desenvolvedora Web Full Stack, apaixonada por tecnologia e programação.
-<br>
+[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:devgislainecosta@gmail.com)](mailto:devgislainecosta@gmail.com)
 <br>
 <br>
 
-## Ferramentas e Linguagens 🖥️ 
+## Ferramentas e Linguagens
 
 <img align="left" alt="Visual Studio Code" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
 <img align="left" alt="HTML5" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
