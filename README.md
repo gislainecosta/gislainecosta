@@ -32,14 +32,15 @@ Desenvolvedora Web Full Stack, apaixonada por tecnologia e programação.
 ## Minhas atividades
 <br>
 <div align="center">
-  <a href="https://github.com/rafaballerini">
+  <a href="https://github.com/gislainecosta">
   <img height="160em" alt="Gislaine's Github Stats" src="https://github-readme-stats.vercel.app/api?username=gislainecosta&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" />
     
    <img height="160em" alt="Gislaine's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gislainecosta&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" />
 </div>
  <br>
+ </div>
   
-  <img alt="Narayan's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=gislainecosta&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" />
+  <img alt="Gráfico de atividades" src="https://activity-graph.herokuapp.com/graph?username=gislainecosta&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" />
 
 
 <!--START_SECTION:waka-->
