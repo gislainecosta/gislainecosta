@@ -17,7 +17,7 @@
 
 <p align="center">
 
-  <img alt="Visual Studio Code" width="48px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
+  <img margin="800em" alt="Visual Studio Code" width="48px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
 
   <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="48" height="48" />
 
@@ -27,7 +27,7 @@
 
   <img alt="JavaScript" width="48px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 
-  <img alt="Typescript" width="48px" src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/1120bad531c928642d2ee49942be079a9fb0519b/icons/file_type_typescript.svg" />
+  <img alt="Typescript" width="48px" src="https://cdn.iconscout.com/icon/free/png-128/typescript-3521774-2945272.png" />
 
   <img alt="JSON" width="48px" src="https://static-00.iconduck.com/assets.00/json-icon-512x512-h328j6d1.png" />
 
@@ -40,15 +40,20 @@
   <img alt="Node JS" height="48px" src="https://user-images.githubusercontent.com/4727/38117898-75c704e4-336c-11e8-82bb-dffd73f55e94.png" />
 
   <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="docker" height="48px" />
+  
+  <img src="https://symbols.getvecta.com/stencil_95/67_sequelize-icon.54c1e009e5.png" alt="sequelize" height="48px" />
 
   <img alt="My SQL" height="48px" src="https://d1.awsstatic.com/asset-repository/products/amazon-rds/1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png" />
+<br>
 
   <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="48" height="48" />
+ 
+ <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/512/insomnia-icon.png" alt="postman" width="54" height="54" />
+ 
 
   <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="48" height="48" />
 
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="48" height="48" />
-
 e mais...
 
 </p>
