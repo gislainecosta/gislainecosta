@@ -1,4 +1,4 @@
-# Gislaine Costa Pereira :woman_technologist:
+# Gislaine Costa Pereira
 
 <div align="center">
   
@@ -7,7 +7,9 @@
 
 </div>
 
-Desenvolvedora Web Full Stack, apaixonada por tecnologia e programação.<br>
+Desenvolvedora Web Full Stack, apaixonada por tecnologia e programação.
+<br>
+<br>
 <br>
 
 ## Ferramentas e Linguagens 🖥️ 
@@ -25,9 +27,18 @@ Desenvolvedora Web Full Stack, apaixonada por tecnologia e programação.<br>
  e mais...
  <br>
  <br>
+ <br>
+
+## Minhas atividades
+<br>
+<div align="center">
+  <a href="https://github.com/rafaballerini">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gislainecosta&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gislainecosta&layout=compact&langs_count=7&theme=dracula"/>
+</div>
+ <br>
 
 
-## Minha semana 📅
 <!--START_SECTION:waka-->
 
 ```text
@@ -35,3 +46,6 @@ No activity tracked
 ```
 
 <!--END_SECTION:waka-->
+<br>
+
+![Snake animation](https://github.com/gislainecosta/gislainecosta/blob/output/github-contribution-grid-snake.svg)
