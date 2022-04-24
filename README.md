@@ -33,8 +33,11 @@ Desenvolvedora Web Full Stack, apaixonada por tecnologia e programação.
 <br>
 <div align="center">
   <a href="https://github.com/rafaballerini">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=gislainecosta&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gislainecosta&layout=compact&langs_count=7&theme=dracula"/>
+  <img height="170em" alt="Gislaine's Github Stats" src="https://github-readme-stats.vercel.app/api?username=gislainecosta&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" />
+    
+   <img height="170em" alt="Gislaine's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gislainecosta&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" />
+    
+    
 </div>
  <br>
 
