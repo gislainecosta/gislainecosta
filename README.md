@@ -38,10 +38,8 @@ Desenvolvedora Web Full Stack, apaixonada por tecnologia e programação.
    <img height="160em" alt="Gislaine's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gislainecosta&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" />
 </div>
  <br>
- </div>
   
-  <img alt="Gráfico de atividades" src="https://activity-graph.herokuapp.com/graph?username=gislainecosta&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" />
-
+  <img alt="Gráfico de atividades" src="https://activity-graph.herokuapp.com/graph?username=gislainecosta&bg_color=0D1117&color=8266f2&line=8266f2&point=ba66f2&hide_border=true" />
 
 <!--START_SECTION:waka-->
 
@@ -50,6 +48,5 @@ No activity tracked
 ```
 
 <!--END_SECTION:waka-->
-<br>
 
 ![Snake animation](https://github.com/gislainecosta/gislainecosta/blob/output/github-contribution-grid-snake.svg)
