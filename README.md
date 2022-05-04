@@ -70,7 +70,12 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```text
-No activity tracked
+From: 27 April 2022 - To: 04 May 2022
+
+TypeScript   34 mins         ████████████████░░░░░░░░░   63.95 %
+JavaScript   10 mins         █████░░░░░░░░░░░░░░░░░░░░   19.92 %
+CSS          8 mins          ████░░░░░░░░░░░░░░░░░░░░░   15.94 %
+JSON         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.19 %
 ```
 
 <!--END_SECTION:waka-->
