@@ -81,10 +81,6 @@ JSON         0 secs          ░░░░░░░░░░░░░░░░░
 <!--END_SECTION:waka-->
 
  <br>
- <br>
- <br>
- <br>
- <br>
  <a href="https://github.com/gislainecosta">
   <img align="left" width="48%" alt="Gislaine's Github Stats" src="https://github-readme-stats.vercel.app/api?username=gislainecosta&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=20232a" />
   <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=gislainecosta&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=20232a" alt="teudm" />
