@@ -70,9 +70,7 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```text
-From: 25 April 2022 - To: 02 May 2022
-
-Markdown   0 secs          █████████████████████████   100.00 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
