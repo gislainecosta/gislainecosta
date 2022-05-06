@@ -70,12 +70,11 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```text
-From: 27 April 2022 - To: 04 May 2022
+From: 28 April 2022 - To: 05 May 2022
 
-TypeScript   34 mins         ████████████████░░░░░░░░░   63.95 %
-JavaScript   10 mins         █████░░░░░░░░░░░░░░░░░░░░   19.92 %
-CSS          8 mins          ████░░░░░░░░░░░░░░░░░░░░░   15.94 %
-JSON         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.19 %
+TypeScript   4 hrs 4 mins    ██████████████████▓░░░░░░   74.10 %
+JSON         28 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   08.76 %
+Other        23 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   07.22 %
 ```
 
 <!--END_SECTION:waka-->
