@@ -39,10 +39,6 @@
 
   <img alt="Node JS" height="48px" src="https://user-images.githubusercontent.com/4727/38117898-75c704e4-336c-11e8-82bb-dffd73f55e94.png" />
 
-  <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="docker" height="48px" />
-  
-  <img src="https://symbols.getvecta.com/stencil_95/67_sequelize-icon.54c1e009e5.png" alt="sequelize" height="48px" />
-
   <img alt="My SQL" height="48px" src="https://d1.awsstatic.com/asset-repository/products/amazon-rds/1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png" />
 
   <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="48" height="48" />
