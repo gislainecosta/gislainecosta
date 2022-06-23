@@ -66,14 +66,14 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```text
-From: 14 June 2022 - To: 21 June 2022
+From: 15 June 2022 - To: 22 June 2022
 
-JavaScript   4 hrs 18 mins   ████████████████░░░░░░░░░   64.60 %
-YAML         50 mins         ███░░░░░░░░░░░░░░░░░░░░░░   12.51 %
-TypeScript   31 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.87 %
-JSON         25 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.44 %
-Markdown     22 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.63 %
-Git Config   6 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.61 %
+JavaScript   3 hrs 40 mins   ██████████████████▒░░░░░░   73.00 %
+TypeScript   31 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.40 %
+YAML         19 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.47 %
+Markdown     17 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.70 %
+JSON         11 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.84 %
+Git Config   1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.44 %
 ```
 
 <!--END_SECTION:waka-->
