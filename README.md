@@ -66,7 +66,7 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```text
-From: 06 July 2022 - To: 13 July 2022
+From: 07 July 2022 - To: 14 July 2022
 
 TypeScript   51 mins         ██████████████▓░░░░░░░░░░   58.39 %
 SCSS         25 mins         ███████░░░░░░░░░░░░░░░░░░   28.31 %
