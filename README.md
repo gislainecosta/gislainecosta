@@ -66,7 +66,7 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```text
-From: 07 August 2022 - To: 14 August 2022
+From: 08 August 2022 - To: 15 August 2022
 
 TypeScript   18 hrs 6 mins   █████████████████████▒░░░   85.38 %
 Bash         1 hr 17 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.07 %
