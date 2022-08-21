@@ -85,7 +85,4 @@ XML          0 secs          ░░░░░░░░░░░░░░░░░
  <br>
  <br>
  <br>
-   
-<img alt="Gráfico de atividades" src="https://activity-graph.herokuapp.com/graph?username=gislainecosta&bg_color=0D1117&color=8266f2&line=8266f2&point=ba66f2&hide_border=true" />
-
 </div>
