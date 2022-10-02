@@ -66,13 +66,13 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```text
-From: 23 September 2022 - To: 30 September 2022
+From: 24 September 2022 - To: 01 October 2022
 
-TypeScript   12 hrs 35 mins  ███████████████████████░░   92.36 %
-Bash         19 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.40 %
-JSON         15 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.92 %
-Markdown     12 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.56 %
-Other        7 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.92 %
+TypeScript   12 hrs 48 mins  ███████████████████████░░   92.48 %
+Bash         19 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.36 %
+JSON         15 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.89 %
+Markdown     12 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.53 %
+Other        7 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.91 %
 ```
 
 <!--END_SECTION:waka-->
