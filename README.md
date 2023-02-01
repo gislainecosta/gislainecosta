@@ -66,10 +66,10 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```text
-From: 23 January 2023 - To: 30 January 2023
+From: 24 January 2023 - To: 31 January 2023
 
-TypeScript   4 hrs 1 min     ████████████████████████░   95.77 %
-JSON         10 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.23 %
+TypeScript   7 hrs 56 mins   ████████████████████████▒   97.81 %
+JSON         10 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.19 %
 Other        0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
 ```
 
