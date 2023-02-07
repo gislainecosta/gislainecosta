@@ -66,11 +66,11 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```text
-From: 29 January 2023 - To: 05 February 2023
+From: 30 January 2023 - To: 06 February 2023
 
-TypeScript   15 hrs 39 mins  ████████████████████████▒   97.28 %
-CSS          20 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.11 %
-JSON         5 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.61 %
+TypeScript   14 hrs 16 mins  ████████████████████████▒   97.02 %
+CSS          20 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.31 %
+JSON         5 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.66 %
 XML          0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
 ```
 
