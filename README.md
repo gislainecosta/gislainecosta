@@ -66,9 +66,11 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```text
-From: 01 March 2023 - To: 08 March 2023
+From: 02 March 2023 - To: 09 March 2023
 
-TypeScript   51 mins         █████████████████████████   100.00 %
+TypeScript   51 mins         █████████████████▓░░░░░░░   70.51 %
+JSON         19 mins         ██████▓░░░░░░░░░░░░░░░░░░   26.61 %
+JavaScript   2 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.88 %
 ```
 
 <!--END_SECTION:waka-->
