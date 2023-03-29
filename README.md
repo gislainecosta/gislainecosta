@@ -66,11 +66,12 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```text
-From: 20 March 2023 - To: 27 March 2023
+From: 21 March 2023 - To: 28 March 2023
 
-JavaScript   7 hrs 40 mins   █████████████████▓░░░░░░░   70.95 %
-JSON         3 hrs           ███████░░░░░░░░░░░░░░░░░░   27.81 %
-YAML         8 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.24 %
+JavaScript   6 hrs 50 mins   ███████████████░░░░░░░░░░   60.47 %
+JSON         4 hrs 1 min     █████████░░░░░░░░░░░░░░░░   35.56 %
+Markdown     18 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.79 %
+YAML         7 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.18 %
 ```
 
 <!--END_SECTION:waka-->
