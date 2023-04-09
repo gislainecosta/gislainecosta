@@ -66,12 +66,11 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```text
-From: 31 March 2023 - To: 07 April 2023
+From: 01 April 2023 - To: 08 April 2023
 
-JSON         4 hrs 12 mins   ████████████████████▓░░░░   83.31 %
-JavaScript   28 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.45 %
-Markdown     17 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.91 %
-TypeScript   2 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.77 %
+JSON         4 hrs 12 mins   █████████████████████░░░░   83.96 %
+JavaScript   28 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.52 %
+Markdown     17 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.96 %
 YAML         1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.49 %
 Bash         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.07 %
 ```
