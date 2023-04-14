@@ -66,11 +66,10 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```text
-From: 05 April 2023 - To: 12 April 2023
+From: 06 April 2023 - To: 13 April 2023
 
-JSON         23 mins         ██████████████████████▓░░   90.00 %
-JavaScript   2 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   08.61 %
-Markdown     0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.39 %
+JSON         1 hr 1 min      ███████████████████████▓░   95.05 %
+JavaScript   3 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   04.95 %
 ```
 
 <!--END_SECTION:waka-->
