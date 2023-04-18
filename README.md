@@ -66,7 +66,7 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```text
-From: 09 April 2023 - To: 16 April 2023
+From: 10 April 2023 - To: 17 April 2023
 
 JSON         1 hr 7 mins     ████████████▒░░░░░░░░░░░░   49.19 %
 Markdown     35 mins         ██████▒░░░░░░░░░░░░░░░░░░   25.76 %
