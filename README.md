@@ -66,7 +66,7 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```text
-From: 23 April 2023 - To: 30 April 2023
+From: 24 April 2023 - To: 01 May 2023
 
 TypeScript   10 hrs 13 mins  ███████████████████████░░   91.70 %
 Bash         21 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.24 %
