@@ -66,13 +66,13 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 28 July 2023 - To: 04 August 2023
+From: 29 July 2023 - To: 05 August 2023
 
-YAML         10 hrs 36 mins  █████████████▓░░░░░░░░░░░   55.24 %
-Bash         1 hr 59 mins    ██▓░░░░░░░░░░░░░░░░░░░░░░   10.41 %
-JSON         1 hr 56 mins    ██▓░░░░░░░░░░░░░░░░░░░░░░   10.08 %
-Docker       1 hr 31 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   07.94 %
-TypeScript   1 hr 25 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   07.39 %
+YAML         10 hrs 43 mins  █████████████████▒░░░░░░░   69.80 %
+JSON         1 hr 50 mins    ███░░░░░░░░░░░░░░░░░░░░░░   12.02 %
+TypeScript   1 hr 3 mins     █▓░░░░░░░░░░░░░░░░░░░░░░░   06.92 %
+Markdown     53 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.81 %
+Bash         27 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.98 %
 ```
 
 <!--END_SECTION:waka-->
