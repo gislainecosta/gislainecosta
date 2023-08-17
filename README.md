@@ -66,13 +66,13 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 08 August 2023 - To: 15 August 2023
+From: 09 August 2023 - To: 16 August 2023
 
-TypeScript   8 hrs 34 mins   ██████████████████▒░░░░░░   73.59 %
-JSON         1 hr 39 mins    ███▓░░░░░░░░░░░░░░░░░░░░░   14.28 %
-JavaScript   30 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.30 %
-YAML         25 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.58 %
-Markdown     23 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.40 %
+TypeScript   9 hrs 4 mins    ██████████████████▓░░░░░░   75.31 %
+JSON         1 hr 31 mins    ███▒░░░░░░░░░░░░░░░░░░░░░   12.70 %
+JavaScript   31 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.40 %
+YAML         25 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.46 %
+Markdown     23 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.29 %
 ```
 
 <!--END_SECTION:waka-->
