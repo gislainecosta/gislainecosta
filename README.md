@@ -66,13 +66,13 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 23 August 2023 - To: 30 August 2023
+From: 24 August 2023 - To: 31 August 2023
 
-JSON         2 hrs 25 mins   ████████████▓░░░░░░░░░░░░   51.18 %
-JavaScript   1 hr 30 mins    ████████░░░░░░░░░░░░░░░░░   31.86 %
-Markdown     39 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.71 %
-TSQL         3 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.24 %
-Bash         2 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.94 %
+JavaScript   1 hr 25 mins    ████████████░░░░░░░░░░░░░   48.57 %
+JSON         1 hr 2 mins     ████████▓░░░░░░░░░░░░░░░░   35.28 %
+Markdown     20 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.78 %
+TSQL         3 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.00 %
+YAML         2 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.23 %
 ```
 
 <!--END_SECTION:waka-->
