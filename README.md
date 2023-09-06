@@ -66,13 +66,11 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 28 August 2023 - To: 04 September 2023
+From: 29 August 2023 - To: 05 September 2023
 
-Prolog     21 mins         █████████▒░░░░░░░░░░░░░░░   37.62 %
-Markdown   20 mins         █████████░░░░░░░░░░░░░░░░   36.14 %
-JSON       10 mins         ████▓░░░░░░░░░░░░░░░░░░░░   18.98 %
-YAML       2 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.77 %
-Bash       1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.89 %
+YAML     58 mins         ███████████████▓░░░░░░░░░   62.96 %
+Prolog   21 mins         ██████░░░░░░░░░░░░░░░░░░░   23.34 %
+JSON     12 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.71 %
 ```
 
 <!--END_SECTION:waka-->
