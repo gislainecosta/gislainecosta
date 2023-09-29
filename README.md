@@ -66,13 +66,13 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 20 September 2023 - To: 27 September 2023
+From: 21 September 2023 - To: 28 September 2023
 
-TypeScript     6 hrs 30 mins   ████████████████▓░░░░░░░░   66.84 %
-YAML           2 hrs 5 mins    █████▒░░░░░░░░░░░░░░░░░░░   21.45 %
-Markdown       31 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.32 %
-Assembly       11 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.95 %
-JSON           9 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.65 %
+TypeScript     7 hrs 53 mins   █████████████████▓░░░░░░░   71.32 %
+YAML           2 hrs 5 mins    ████▓░░░░░░░░░░░░░░░░░░░░   18.89 %
+Markdown       24 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.66 %
+Assembly       11 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.72 %
+JSON           10 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.63 %
 ```
 
 <!--END_SECTION:waka-->
