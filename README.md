@@ -66,13 +66,9 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 18 October 2023 - To: 25 October 2023
+From: 19 October 2023 - To: 26 October 2023
 
-TypeScript   6 hrs 12 mins   ███████████████████████▓░   95.08 %
-JSON         9 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.45 %
-TSConfig     7 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.98 %
-JavaScript   1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.37 %
-Assembly     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
