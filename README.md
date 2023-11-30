@@ -66,13 +66,9 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 21 November 2023 - To: 28 November 2023
+From: 22 November 2023 - To: 29 November 2023
 
-Other        3 mins          ███████████████▓░░░░░░░░░   62.04 %
-Git Config   1 min           ███████▓░░░░░░░░░░░░░░░░░   31.10 %
-TypeScript   0 secs          █░░░░░░░░░░░░░░░░░░░░░░░░   04.65 %
-TSConfig     0 secs          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.07 %
-JavaScript   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.15 %
+TypeScript   0 secs          █████████████████████████   100.00 %
 ```
 
 <!--END_SECTION:waka-->
