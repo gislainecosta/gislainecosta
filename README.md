@@ -66,9 +66,13 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 15 January 2024 - To: 22 January 2024
+From: 16 January 2024 - To: 23 January 2024
 
-No activity tracked
+TypeScript   1 hr 19 mins    ██████████▒░░░░░░░░░░░░░░   41.81 %
+JSON         39 mins         █████▒░░░░░░░░░░░░░░░░░░░   20.70 %
+CSS          37 mins         █████░░░░░░░░░░░░░░░░░░░░   19.67 %
+HTML         28 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.90 %
+JavaScript   5 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.81 %
 ```
 
 <!--END_SECTION:waka-->
