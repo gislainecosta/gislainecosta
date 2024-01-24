@@ -1,5 +1,5 @@
 <h1 align="center">Olá 👋, eu sou a Gislaine</h1>
-<h3 align="center">Desenvolvedora Web Full Stack, apaixonada por tecnologia e programação.</h3>
+<h3 align="center">Desenvolvedora Web Full Stack Pleno, com um sólido domínio em criar experiências de usuário envolventes e funcionais.</h3>
 
 <p align="left"> 
  <img src="https://komarev.com/ghpvc/?username=gislainecosta&label=Profile%20views&color=blueviolet&style=flat&label=Visitantes:" alt="gislainecosta" />
