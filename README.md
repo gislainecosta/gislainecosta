@@ -66,9 +66,13 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 24 January 2024 - To: 31 January 2024
+From: 25 January 2024 - To: 01 February 2024
 
-TypeScript   2 mins          █████████████████████████   100.00 %
+TypeScript   1 hr 45 mins    █████████████▒░░░░░░░░░░░   53.82 %
+JSON         37 mins         ████▓░░░░░░░░░░░░░░░░░░░░   19.08 %
+Bash         18 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.68 %
+JavaScript   16 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.38 %
+HTML         13 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.94 %
 ```
 
 <!--END_SECTION:waka-->
