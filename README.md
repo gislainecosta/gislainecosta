@@ -66,9 +66,10 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 09 February 2024 - To: 16 February 2024
+From: 10 February 2024 - To: 17 February 2024
 
-C#   7 mins          █████████████████████████   100.00 %
+C#    7 mins          ██████████████████████▓░░   90.49 %
+XML   0 secs          ██▒░░░░░░░░░░░░░░░░░░░░░░   09.51 %
 ```
 
 <!--END_SECTION:waka-->
