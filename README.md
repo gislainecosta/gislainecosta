@@ -66,11 +66,10 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 16 February 2024 - To: 23 February 2024
+From: 17 February 2024 - To: 24 February 2024
 
-JavaScript   3 mins          ███████████░░░░░░░░░░░░░░   44.30 %
-JSON         2 mins          ███████████░░░░░░░░░░░░░░   43.62 %
-XML          0 secs          ███░░░░░░░░░░░░░░░░░░░░░░   12.07 %
+JavaScript   3 mins          ████████████▓░░░░░░░░░░░░   50.39 %
+JSON         2 mins          ████████████▒░░░░░░░░░░░░   49.61 %
 ```
 
 <!--END_SECTION:waka-->
