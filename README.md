@@ -66,9 +66,13 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 24 February 2024 - To: 02 March 2024
+From: 25 February 2024 - To: 03 March 2024
 
-HTML   0 secs          █████████████████████████   100.00 %
+HTML         1 hr 26 mins    ████████████▒░░░░░░░░░░░░   49.61 %
+CSS          1 hr 14 mins    ██████████▓░░░░░░░░░░░░░░   42.71 %
+Markdown     8 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.07 %
+TypeScript   4 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.43 %
+JSON         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.19 %
 ```
 
 <!--END_SECTION:waka-->
