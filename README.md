@@ -66,7 +66,7 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 27 February 2024 - To: 05 March 2024
+From: 28 February 2024 - To: 06 March 2024
 
 HTML         1 hr 26 mins    ████████████▒░░░░░░░░░░░░   49.38 %
 CSS          1 hr 14 mins    ██████████▓░░░░░░░░░░░░░░   42.90 %
