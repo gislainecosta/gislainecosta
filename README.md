@@ -66,13 +66,13 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 06 March 2024 - To: 13 March 2024
+From: 07 March 2024 - To: 14 March 2024
 
-TypeScript   7 hrs 10 mins   ██████████▒░░░░░░░░░░░░░░   41.82 %
-JSON         3 hrs 51 mins   █████▓░░░░░░░░░░░░░░░░░░░   22.48 %
-YAML         1 hr 39 mins    ██▒░░░░░░░░░░░░░░░░░░░░░░   09.63 %
-Bash         1 hr 21 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   07.95 %
-JavaScript   47 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.59 %
+TypeScript   10 hrs 24 mins  ████████████░░░░░░░░░░░░░   47.47 %
+JSON         4 hrs 34 mins   █████▒░░░░░░░░░░░░░░░░░░░   20.86 %
+YAML         1 hr 47 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   08.18 %
+Bash         1 hr 21 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.23 %
+Markdown     53 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.07 %
 ```
 
 <!--END_SECTION:waka-->
