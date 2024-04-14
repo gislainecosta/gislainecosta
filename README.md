@@ -66,7 +66,7 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 05 April 2024 - To: 12 April 2024
+From: 06 April 2024 - To: 13 April 2024
 
 C#           3 hrs 40 mins   █████████░░░░░░░░░░░░░░░░   36.36 %
 TypeScript   2 hrs 43 mins   ██████▓░░░░░░░░░░░░░░░░░░   26.98 %
