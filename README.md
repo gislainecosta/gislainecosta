@@ -66,13 +66,13 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 08 April 2024 - To: 15 April 2024
+From: 09 April 2024 - To: 16 April 2024
 
-C#           3 hrs 32 mins   █████████░░░░░░░░░░░░░░░░   36.09 %
-TypeScript   2 hrs 43 mins   ███████░░░░░░░░░░░░░░░░░░   27.73 %
-HTML         1 hr 33 mins    ████░░░░░░░░░░░░░░░░░░░░░   15.80 %
-Batchfile    1 hr 2 mins     ██▓░░░░░░░░░░░░░░░░░░░░░░   10.53 %
-JSON         31 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.41 %
+C#           3 hrs 28 mins   █████████░░░░░░░░░░░░░░░░   36.60 %
+TypeScript   2 hrs 43 mins   ███████▒░░░░░░░░░░░░░░░░░   28.67 %
+HTML         1 hr 32 mins    ████░░░░░░░░░░░░░░░░░░░░░   16.30 %
+Batchfile    47 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.27 %
+JSON         31 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.59 %
 ```
 
 <!--END_SECTION:waka-->
