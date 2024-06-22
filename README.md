@@ -66,9 +66,12 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 13 June 2024 - To: 20 June 2024
+From: 14 June 2024 - To: 21 June 2024
 
-No activity tracked
+CSS          12 mins         ██████████▒░░░░░░░░░░░░░░   41.55 %
+HTML         10 mins         ████████▓░░░░░░░░░░░░░░░░   34.39 %
+TypeScript   5 mins          ████▒░░░░░░░░░░░░░░░░░░░░   17.41 %
+Markdown     2 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.64 %
 ```
 
 <!--END_SECTION:waka-->
