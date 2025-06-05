@@ -66,9 +66,12 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 27 May 2025 - To: 03 June 2025
+From: 28 May 2025 - To: 04 June 2025
 
-No activity tracked
+HTML         2 hrs 27 mins   ████████████████▓░░░░░░░░   66.95 %
+CSS          59 mins         ██████▓░░░░░░░░░░░░░░░░░░   27.06 %
+JavaScript   13 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.98 %
+JSON         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 %
 ```
 
 <!--END_SECTION:waka-->
