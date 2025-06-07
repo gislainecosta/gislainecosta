@@ -66,7 +66,7 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 29 May 2025 - To: 05 June 2025
+From: 30 May 2025 - To: 06 June 2025
 
 HTML         2 hrs 30 mins   █████████████████░░░░░░░░   67.39 %
 CSS          59 mins         ██████▓░░░░░░░░░░░░░░░░░░   26.69 %
