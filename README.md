@@ -29,7 +29,7 @@
 
   <img alt="Typescript" width="48px" src="https://cdn.iconscout.com/icon/free/png-128/typescript-3521774-2945272.png" />
 
-  <img alt="JSON" width="48px" src="https://static-00.iconduck.com/assets.00/json-icon-512x512-h328j6d1.png" />
+  <img alt="JSON" width="48px" src="https://images.icon-icons.com/2699/PNG/512/json_logo_icon_168489.png" />
 
   <img alt="ReactJS" width="48px" src="https://nextsoftware.io/files/images/logos/main/reactjs-logo.png" />
 
@@ -44,11 +44,10 @@
   <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="48" height="48" />
  
  <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/512/insomnia-icon.png" alt="postman" width="54" height="54" />
- 
 
   <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="48" height="48" />
 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="48" height="48" />
+  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968520.png" alt="photoshop" width="48" height="48" />
 e mais...
 
 </p>
