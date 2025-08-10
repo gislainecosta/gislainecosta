@@ -66,9 +66,11 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 02 August 2025 - To: 09 August 2025
+From: 03 August 2025 - To: 10 August 2025
 
-No activity tracked
+Python   26 mins         █████████████████▓░░░░░░░   70.76 %
+JSON     9 mins          ██████░░░░░░░░░░░░░░░░░░░   24.06 %
+Text     1 min           █▒░░░░░░░░░░░░░░░░░░░░░░░   05.18 %
 ```
 
 <!--END_SECTION:waka-->
