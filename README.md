@@ -65,10 +65,9 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 10 August 2025 - To: 17 August 2025
+From: 11 August 2025 - To: 18 August 2025
 
-Python   32 mins         ████████████████████████▓   99.18 %
-CSV      0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.82 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
