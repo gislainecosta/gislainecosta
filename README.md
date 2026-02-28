@@ -65,9 +65,13 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 19 February 2026 - To: 26 February 2026
+From: 20 February 2026 - To: 27 February 2026
 
-JSON   9 mins                █████████████████████████   100.00 %
+TypeScript   56 mins               █████▓░░░░░░░░░░░░░░░░░░░   23.30 %
+JSON         53 mins               █████▓░░░░░░░░░░░░░░░░░░░   22.35 %
+Prisma       42 mins               ████▒░░░░░░░░░░░░░░░░░░░░   17.63 %
+Bash         30 mins               ███▒░░░░░░░░░░░░░░░░░░░░░   12.74 %
+Git Config   23 mins               ██▒░░░░░░░░░░░░░░░░░░░░░░   09.65 %
 ```
 
 <!--END_SECTION:waka-->
