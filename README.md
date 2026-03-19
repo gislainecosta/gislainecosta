@@ -65,12 +65,13 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 10 March 2026 - To: 17 March 2026
+From: 11 March 2026 - To: 18 March 2026
 
-Other        7 mins                █████████████▒░░░░░░░░░░░   52.80 %
-Markdown     3 mins                ██████▒░░░░░░░░░░░░░░░░░░   25.82 %
-Git Config   1 min                 ███░░░░░░░░░░░░░░░░░░░░░░   11.63 %
-Bash         1 min                 ██▒░░░░░░░░░░░░░░░░░░░░░░   09.75 %
+TypeScript   3 hrs 57 mins         █████████████████▒░░░░░░░   68.73 %
+Markdown     44 mins               ███▒░░░░░░░░░░░░░░░░░░░░░   12.88 %
+JSON         29 mins               ██░░░░░░░░░░░░░░░░░░░░░░░   08.64 %
+Other        18 mins               █▒░░░░░░░░░░░░░░░░░░░░░░░   05.24 %
+YAML         4 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.22 %
 ```
 
 <!--END_SECTION:waka-->
