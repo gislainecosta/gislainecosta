@@ -65,13 +65,13 @@ e mais...
 <!--START_SECTION:waka-->
 
 ```txt
-From: 12 March 2026 - To: 19 March 2026
+From: 13 March 2026 - To: 20 March 2026
 
-TypeScript   5 hrs 25 mins         ██████████████▓░░░░░░░░░░   58.43 %
-Markdown     2 hrs 22 mins         ██████▒░░░░░░░░░░░░░░░░░░   25.49 %
-JSON         29 mins               █▒░░░░░░░░░░░░░░░░░░░░░░░   05.35 %
-Prisma       27 mins               █▒░░░░░░░░░░░░░░░░░░░░░░░   04.89 %
-Other        18 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.24 %
+TypeScript   7 hrs 27 mins         ██████████████░░░░░░░░░░░   56.16 %
+Markdown     2 hrs 24 mins         ████▓░░░░░░░░░░░░░░░░░░░░   18.17 %
+SQL          1 hr 11 mins          ██▒░░░░░░░░░░░░░░░░░░░░░░   09.02 %
+Prisma       1 hr                  ██░░░░░░░░░░░░░░░░░░░░░░░   07.58 %
+JSON         30 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   03.77 %
 ```
 
 <!--END_SECTION:waka-->
