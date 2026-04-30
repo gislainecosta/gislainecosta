@@ -11,6 +11,10 @@ env:
 permissions:
   contents: write
 
+concurrency:
+  group: wakatime-card-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   update-wakatime-card:
     name: Update WakaTime SVG card
@@ -19,14 +23,29 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: master
 
       - name: Generate WakaTime card
         env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
         run: python3 scripts/generate-wakatime-card.py
 
-      - name: Commit updated WakaTime card
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: Update WakaTime stats card
-          file_pattern: assets/wakatime-stats.svg
+      - name: Commit and push updated WakaTime card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin master
+          git pull --rebase origin master
+
+          git add assets/wakatime-stats.svg
+
+          if git diff --cached --quiet; then
+            echo "No WakaTime card changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update WakaTime stats card"
+          git push origin HEAD:master
