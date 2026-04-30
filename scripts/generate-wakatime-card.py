@@ -19,7 +19,16 @@ CARD_BACKGROUND = "#20232a"
 CARD_PRIMARY = "#61dafb"
 CARD_MUTED = "#ffffff"
 
-DONUT_COLORS = ["#61dafb", "#3b82f6", "#f6d32d", "#f97316", "#8bc34a"]
+MAX_ROWS = 5
+TOP_LANGUAGES_BEFORE_OTHERS = 4
+
+DONUT_COLORS = [
+    "#61dafb",
+    "#3b82f6",
+    "#f6d32d",
+    "#f97316",
+    "#8bc34a",
+]
 
 
 def ensure_output_directory() -> None:
@@ -69,13 +78,20 @@ def format_date(value: dt.date) -> str:
         "nov.",
         "dez.",
     ]
+
     return f"{value.day:02d} {months[value.month - 1]} {value.year}"
 
 
-def polar_to_cartesian(cx: float, cy: float, radius: float, angle_deg: float) -> tuple[float, float]:
+def polar_to_cartesian(
+    cx: float,
+    cy: float,
+    radius: float,
+    angle_deg: float,
+) -> tuple[float, float]:
     angle_rad = math.radians(angle_deg)
     x = cx + radius * math.cos(angle_rad)
     y = cy + radius * math.sin(angle_rad)
+
     return x, y
 
 
@@ -104,6 +120,7 @@ def describe_ring_segment(
 
 def write_placeholder_card(message: str = "Atualizando estatísticas...") -> None:
     ensure_output_directory()
+
     safe_message = html.escape(message)
 
     svg = f"""<svg width="{CARD_WIDTH}" height="{CARD_HEIGHT}" viewBox="0 0 {CARD_WIDTH} {CARD_HEIGHT}" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -130,15 +147,16 @@ def write_placeholder_card(message: str = "Atualizando estatísticas...") -> Non
   <text x="36" y="112" class="text">{safe_message}</text>
   <text x="36" y="142" class="muted">O card será preenchido automaticamente pelo GitHub Actions.</text>
 
-  <circle cx="396" cy="156" r="62" fill="#161b22" />
-  <circle cx="396" cy="156" r="40" fill="{CARD_BACKGROUND}" />
-  <text x="396" y="148" text-anchor="middle" class="muted">WakaTime</text>
-  <text x="396" y="170" text-anchor="middle" class="text">...</text>
+  <circle cx="392" cy="166" r="66" fill="#161b22" />
+  <circle cx="392" cy="166" r="42" fill="{CARD_BACKGROUND}" />
+  <text x="392" y="158" text-anchor="middle" class="muted">WakaTime</text>
+  <text x="392" y="180" text-anchor="middle" class="text">...</text>
 
   <circle cx="48" cy="220" r="6" fill="{CARD_PRIMARY}" />
   <text x="64" y="225" class="muted">Aguardando dados do WakaTime</text>
 </svg>
 """
+
     OUTPUT_PATH.write_text(svg, encoding="utf-8")
     print(f"Generated placeholder card at {OUTPUT_PATH}")
 
@@ -182,6 +200,25 @@ def collect_languages(payload: dict) -> dict[str, float]:
     return languages
 
 
+def build_display_languages(languages: dict[str, float]) -> list[tuple[str, float]]:
+    sorted_languages = sorted(
+        languages.items(),
+        key=lambda item: item[1],
+        reverse=True,
+    )
+
+    if len(sorted_languages) <= MAX_ROWS:
+        return sorted_languages
+
+    visible_languages = sorted_languages[:TOP_LANGUAGES_BEFORE_OTHERS]
+    others_seconds = sum(seconds for _, seconds in sorted_languages[TOP_LANGUAGES_BEFORE_OTHERS:])
+
+    if others_seconds > 0:
+        visible_languages.append(("Outros", others_seconds))
+
+    return visible_languages[:MAX_ROWS]
+
+
 def build_donut_segments(
     items: list[tuple[str, float]],
     total_seconds: float,
@@ -193,7 +230,7 @@ def build_donut_segments(
     if not items or total_seconds <= 0:
         return ""
 
-    gap_deg = 3 if len(items) > 1 else 0
+    gap_deg = 2 if len(items) > 1 else 0
     total_gap = gap_deg * len(items)
     usable_degrees = max(0, 360 - total_gap)
 
@@ -203,6 +240,9 @@ def build_donut_segments(
     for index, (_, seconds) in enumerate(items):
         percentage = seconds / total_seconds
         sweep = usable_degrees * percentage
+
+        if sweep <= 0:
+            continue
 
         start_angle = current_angle
         end_angle = current_angle + sweep
@@ -231,17 +271,15 @@ def build_wakatime_card(
     languages: dict[str, float],
 ) -> str:
     total_seconds = sum(languages.values())
-    top_languages = sorted(
-        languages.items(),
-        key=lambda item: item[1],
-        reverse=True,
-    )[:5]
 
-    if total_seconds <= 0 or not top_languages:
+    if total_seconds <= 0 or not languages:
         return build_empty_card(start=start, end=end)
 
+    display_languages = build_display_languages(languages)
+
     legend_rows: list[str] = []
-    for index, (name, seconds) in enumerate(top_languages):
+
+    for index, (name, seconds) in enumerate(display_languages):
         color = DONUT_COLORS[index % len(DONUT_COLORS)]
         percent = (seconds / total_seconds) * 100
         row_y = 124 + index * 30
@@ -259,7 +297,7 @@ def build_wakatime_card(
         )
 
     donut_svg = build_donut_segments(
-        items=top_languages,
+        items=display_languages,
         total_seconds=total_seconds,
         cx=392,
         cy=166,
@@ -271,7 +309,10 @@ def build_wakatime_card(
 
     total_line_2_svg = ""
     if total_line_2:
-        total_line_2_svg = f'<text x="392" y="188" class="donutValueSecondary">{html.escape(total_line_2)}</text>'
+        total_line_2_svg = (
+            f'<text x="392" y="188" class="donutValueSecondary">'
+            f"{html.escape(total_line_2)}</text>"
+        )
 
     return f"""<svg width="{CARD_WIDTH}" height="{CARD_HEIGHT}" viewBox="0 0 {CARD_WIDTH} {CARD_HEIGHT}" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
