@@ -21,11 +21,11 @@
 ## Ferramentas e Linguagens
 
 <p align="center">
-  <img src="https://go-skill-icons.vercel.app/api/icons?i=vscode,git,html,css,js,ts,json,react&theme=dark&perline=8" alt="Ferramentas e linguagens principais" />
+  <img width="620" src="https://go-skill-icons.vercel.app/api/icons?i=vscode,git,html,css,js,ts,json,react&theme=dark&perline=8" alt="Ferramentas e linguagens principais" />
 </p>
 
 <p align="center">
-  <img src="https://go-skill-icons.vercel.app/api/icons?i=redux,materialui,nodejs,mysql,postman,insomnia,figma,photoshop&theme=dark&perline=8" alt="Ferramentas e linguagens complementares" />
+  <img width="620" src="https://go-skill-icons.vercel.app/api/icons?i=redux,materialui,nodejs,mysql,postman,insomnia,figma,photoshop&theme=dark&perline=8" alt="Ferramentas e linguagens complementares" />
 </p>
 
 <p align="center">
