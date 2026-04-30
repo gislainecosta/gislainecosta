@@ -90,6 +90,14 @@
 <br>
 
 <!--START_SECTION:waka-->
+
+```txt
+From: 23 April 2026 - To: 30 April 2026
+
+Other        0 secs                ██████████████▓░░░░░░░░░░   58.49 %
+JavaScript   0 secs                ██████████▒░░░░░░░░░░░░░░   41.51 %
+```
+
 <!--END_SECTION:waka-->
 
 <br>
