@@ -13,17 +13,21 @@ permissions:
   contents: write
 
 jobs:
-  update-readme:
-    name: Update this repo's README
+  update-wakatime-card:
+    name: Update WakaTime SVG card
     runs-on: ubuntu-latest
 
     steps:
-      - uses: athul/waka-readme@master
-        with:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate WakaTime card
+        env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GH_TOKEN: ${{ github.token }}
-          SHOW_TITLE: true
-          TIME_RANGE: last_year
-          LANG_COUNT: 5
-          SHOW_TIME: true
-          SHOW_TOTAL: true
+        run: python scripts/generate-wakatime-card.py
+
+      - name: Commit updated WakaTime card
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update WakaTime stats card
+          file_pattern: assets/wakatime-stats.svg
