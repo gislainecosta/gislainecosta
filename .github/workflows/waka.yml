@@ -1,13 +1,12 @@
-name: Waka Readme
+name: WakaTime Card
 
 on:
   workflow_dispatch:
   schedule:
-    # Runs at 12am UTC
-    # Runs at 12pm UTC
-    # Runs at 6pm UTC
-    # Runs at 6am UTC
     - cron: "0 12 * * *"
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
 
 permissions:
   contents: write
@@ -24,7 +23,7 @@ jobs:
       - name: Generate WakaTime card
         env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-        run: python scripts/generate-wakatime-card.py
+        run: python3 scripts/generate-wakatime-card.py
 
       - name: Commit updated WakaTime card
         uses: stefanzweifel/git-auto-commit-action@v5
