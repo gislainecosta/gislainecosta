@@ -17,60 +17,13 @@
 
 ## Ferramentas e Linguagens
 
-<table align="center">
-  <tr>
-    <td align="center" width="70">
-      <img alt="Visual Studio Code" width="48" height="48" src="https://raw.githubusercontent.com/github/explore/main/topics/visual-studio-code/visual-studio-code.png" />
-    </td>
-    <td align="center" width="70">
-      <img alt="Git" width="48" height="48" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" />
-    </td>
-    <td align="center" width="70">
-      <img alt="HTML5" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-    </td>
-    <td align="center" width="70">
-      <img alt="CSS3" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-    </td>
-    <td align="center" width="70">
-      <img alt="JavaScript" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-    </td>
-    <td align="center" width="70">
-      <img alt="TypeScript" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-    </td>
-    <td align="center" width="70">
-      <img alt="JSON" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg" />
-    </td>
-    <td align="center" width="70">
-      <img alt="ReactJS" width="48" height="48" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="70">
-      <img alt="Redux" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
-    </td>
-    <td align="center" width="70">
-      <img alt="Material UI" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" />
-    </td>
-    <td align="center" width="70">
-      <img alt="Node.js" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-    </td>
-    <td align="center" width="70">
-      <img alt="MySQL" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
-    </td>
-    <td align="center" width="70">
-      <img alt="Postman" width="48" height="48" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" />
-    </td>
-    <td align="center" width="70">
-      <img alt="Insomnia" width="48" height="48" src="https://raw.githubusercontent.com/get-icon/geticon/master/icons/insomnia.svg" />
-    </td>
-    <td align="center" width="70">
-      <img alt="Figma" width="48" height="48" src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" />
-    </td>
-    <td align="center" width="70">
-      <img alt="Photoshop" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=vscode,git,html,css,js,ts,json,react&theme=dark&perline=8" alt="Ferramentas e linguagens principais" />
+</p>
+
+<p align="center">
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=redux,materialui,nodejs,mysql,postman,insomnia,figma,photoshop&theme=dark&perline=8" alt="Ferramentas e linguagens complementares" />
+</p>
 
 <p align="center">
   <strong>e mais...</strong>
@@ -80,27 +33,26 @@
 
 ## Minhas atividades
 
-<div align="center">
-
-<a href="https://github.com/gislainecosta">
-  <img width="42%" alt="Linguagens mais usadas" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gislainecosta&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=20232a" />
-</a>
-
-<br>
-<br>
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img width="100%" alt="Linguagens mais usadas" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gislainecosta&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=20232a" />
+    </td>
+    <td width="50%" align="center">
 
 <!--START_SECTION:waka-->
 
 ```txt
-From: 23 April 2026 - To: 30 April 2026
-
-Other        0 secs                ██████████████▓░░░░░░░░░░   58.49 %
-JavaScript   0 secs                ██████████▒░░░░░░░░░░░░░░   41.51 %
+Aguardando atualização automática do WakaTime...
 ```
 
 <!--END_SECTION:waka-->
 
-<br>
+  </td>
+  </tr>
+</table>
+
+<div align="center">
 
 <a href="https://github.com/gislainecosta">
   <img width="48%" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=gislainecosta&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=20232a" />
