@@ -54,6 +54,9 @@
 <br>
 
 <!--START_SECTION:waka-->
+```txt
+Aguardando atualização automática do WakaTime...
+```
 <!--END_SECTION:waka-->
 
 <br>
