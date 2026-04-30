@@ -42,7 +42,7 @@
   <img width="49%" alt="Linguagens mais usadas" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gislainecosta&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=20232a" />
 </a>
 <a href="https://wakatime.com/@e468b5be-5997-430a-9f0a-20be1de6978e">
-  <img width="49%" alt="Estatísticas WakaTime" src="./assets/wakatime-stats.svg" />
+  <img width="49%" alt="Estatísticas WakaTime" src="./assets/wakatime-stats.svg?v=4" />
 </a>
 
 <br>
