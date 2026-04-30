@@ -17,24 +17,60 @@
 
 ## Ferramentas e Linguagens
 
-<p align="center">
-  <img alt="Visual Studio Code" width="48" height="48" src="https://raw.githubusercontent.com/github/explore/main/topics/visual-studio-code/visual-studio-code.png" />&nbsp;
-  <img alt="Git" width="48" height="48" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" />&nbsp;
-  <img alt="HTML5" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />&nbsp;
-  <img alt="CSS3" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />&nbsp;
-  <img alt="JavaScript" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />&nbsp;
-  <img alt="TypeScript" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />&nbsp;
-  <img alt="JSON" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg" />&nbsp;
-  <img alt="ReactJS" width="48" height="48" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" />&nbsp;
-  <img alt="Redux" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />&nbsp;
-  <img alt="Material UI" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" />&nbsp;
-  <img alt="Node.js" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />&nbsp;
-  <img alt="MySQL" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />&nbsp;
-  <img alt="Postman" width="48" height="48" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" />&nbsp;
-  <img alt="Insomnia" width="48" height="48" src="https://raw.githubusercontent.com/get-icon/geticon/master/icons/insomnia.svg" />&nbsp;
-  <img alt="Figma" width="48" height="48" src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" />&nbsp;
-  <img alt="Photoshop" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="70">
+      <img alt="Visual Studio Code" width="48" height="48" src="https://raw.githubusercontent.com/github/explore/main/topics/visual-studio-code/visual-studio-code.png" />
+    </td>
+    <td align="center" width="70">
+      <img alt="Git" width="48" height="48" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" />
+    </td>
+    <td align="center" width="70">
+      <img alt="HTML5" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+    </td>
+    <td align="center" width="70">
+      <img alt="CSS3" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+    </td>
+    <td align="center" width="70">
+      <img alt="JavaScript" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+    </td>
+    <td align="center" width="70">
+      <img alt="TypeScript" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+    </td>
+    <td align="center" width="70">
+      <img alt="JSON" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg" />
+    </td>
+    <td align="center" width="70">
+      <img alt="ReactJS" width="48" height="48" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="70">
+      <img alt="Redux" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
+    </td>
+    <td align="center" width="70">
+      <img alt="Material UI" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" />
+    </td>
+    <td align="center" width="70">
+      <img alt="Node.js" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+    </td>
+    <td align="center" width="70">
+      <img alt="MySQL" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+    </td>
+    <td align="center" width="70">
+      <img alt="Postman" width="48" height="48" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" />
+    </td>
+    <td align="center" width="70">
+      <img alt="Insomnia" width="48" height="48" src="https://raw.githubusercontent.com/get-icon/geticon/master/icons/insomnia.svg" />
+    </td>
+    <td align="center" width="70">
+      <img alt="Figma" width="48" height="48" src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" />
+    </td>
+    <td align="center" width="70">
+      <img alt="Photoshop" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" />
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <strong>e mais...</strong>
@@ -54,9 +90,6 @@
 <br>
 
 <!--START_SECTION:waka-->
-```txt
-Aguardando atualização automática do WakaTime...
-```
 <!--END_SECTION:waka-->
 
 <br>
