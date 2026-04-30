@@ -2,6 +2,7 @@ import base64
 import datetime as dt
 import html
 import json
+import math
 import os
 import sys
 import urllib.error
@@ -17,6 +18,8 @@ CARD_HEIGHT = 300
 CARD_BACKGROUND = "#20232a"
 CARD_PRIMARY = "#61dafb"
 CARD_MUTED = "#ffffff"
+
+DONUT_COLORS = ["#61dafb", "#3b82f6", "#f6d32d", "#f97316", "#8bc34a"]
 
 
 def ensure_output_directory() -> None:
@@ -52,47 +55,76 @@ def format_date(value: dt.date) -> str:
         "nov.",
         "dez.",
     ]
-
     return f"{value.day:02d} {months[value.month - 1]} {value.year}"
+
+
+def polar_to_cartesian(cx: float, cy: float, radius: float, angle_deg: float) -> tuple[float, float]:
+    angle_rad = math.radians(angle_deg)
+    x = cx + radius * math.cos(angle_rad)
+    y = cy + radius * math.sin(angle_rad)
+    return x, y
+
+
+def describe_ring_segment(
+    cx: float,
+    cy: float,
+    outer_radius: float,
+    inner_radius: float,
+    start_angle: float,
+    end_angle: float,
+) -> str:
+    start_outer = polar_to_cartesian(cx, cy, outer_radius, start_angle)
+    end_outer = polar_to_cartesian(cx, cy, outer_radius, end_angle)
+    start_inner = polar_to_cartesian(cx, cy, inner_radius, start_angle)
+    end_inner = polar_to_cartesian(cx, cy, inner_radius, end_angle)
+
+    large_arc_flag = 1 if (end_angle - start_angle) > 180 else 0
+
+    return (
+        f"M {start_outer[0]:.2f} {start_outer[1]:.2f} "
+        f"A {outer_radius} {outer_radius} 0 {large_arc_flag} 1 {end_outer[0]:.2f} {end_outer[1]:.2f} "
+        f"L {end_inner[0]:.2f} {end_inner[1]:.2f} "
+        f"A {inner_radius} {inner_radius} 0 {large_arc_flag} 0 {start_inner[0]:.2f} {start_inner[1]:.2f} Z"
+    )
 
 
 def write_placeholder_card(message: str = "Atualizando estatísticas...") -> None:
     ensure_output_directory()
-
     safe_message = html.escape(message)
 
     svg = f"""<svg width="{CARD_WIDTH}" height="{CARD_HEIGHT}" viewBox="0 0 {CARD_WIDTH} {CARD_HEIGHT}" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .title {{
-      font: 700 26px Arial, Helvetica, sans-serif;
+      font: 700 24px Arial, Helvetica, sans-serif;
       fill: {CARD_PRIMARY};
     }}
     .text {{
       font: 600 16px Arial, Helvetica, sans-serif;
       fill: {CARD_MUTED};
-      opacity: 0.9;
+      opacity: 0.92;
     }}
     .muted {{
       font: 500 13px Arial, Helvetica, sans-serif;
       fill: {CARD_MUTED};
-      opacity: 0.65;
+      opacity: 0.68;
     }}
   </style>
 
   <rect width="{CARD_WIDTH}" height="{CARD_HEIGHT}" rx="8" fill="{CARD_BACKGROUND}" />
 
-  <text x="40" y="64" class="title">WakaTime</text>
-  <text x="40" y="120" class="text">{safe_message}</text>
-  <text x="40" y="150" class="muted">O card será preenchido automaticamente pelo GitHub Actions.</text>
+  <text x="36" y="54" class="title">WakaTime</text>
+  <text x="36" y="112" class="text">{safe_message}</text>
+  <text x="36" y="142" class="muted">O card será preenchido automaticamente pelo GitHub Actions.</text>
 
-  <rect x="40" y="190" width="420" height="12" rx="6" fill="#161b22" />
-  <rect x="40" y="190" width="160" height="12" rx="6" fill="{CARD_PRIMARY}" opacity="0.85" />
+  <circle cx="390" cy="156" r="54" fill="#161b22" />
+  <circle cx="390" cy="156" r="38" fill="{CARD_BACKGROUND}" />
+  <text x="390" y="150" text-anchor="middle" class="muted">WakaTime</text>
+  <text x="390" y="172" text-anchor="middle" class="text">...</text>
 
-  <circle cx="52" cy="235" r="6" fill="{CARD_PRIMARY}" />
-  <text x="68" y="240" class="muted">Aguardando dados do WakaTime</text>
+  <circle cx="48" cy="220" r="6" fill="{CARD_PRIMARY}" />
+  <text x="64" y="225" class="muted">Aguardando dados do WakaTime</text>
 </svg>
 """
-
     OUTPUT_PATH.write_text(svg, encoding="utf-8")
     print(f"Generated placeholder card at {OUTPUT_PATH}")
 
@@ -136,6 +168,48 @@ def collect_languages(payload: dict) -> dict[str, float]:
     return languages
 
 
+def build_donut_segments(
+    items: list[tuple[str, float]],
+    total_seconds: float,
+    cx: float,
+    cy: float,
+    outer_radius: float,
+    inner_radius: float,
+) -> str:
+    if not items or total_seconds <= 0:
+        return ""
+
+    gap_deg = 3 if len(items) > 1 else 0
+    total_gap = gap_deg * len(items)
+    usable_degrees = max(0, 360 - total_gap)
+
+    current_angle = -90
+    segments: list[str] = []
+
+    for index, (_, seconds) in enumerate(items):
+        percentage = seconds / total_seconds
+        sweep = usable_degrees * percentage
+
+        start_angle = current_angle
+        end_angle = current_angle + sweep
+
+        path = describe_ring_segment(
+            cx=cx,
+            cy=cy,
+            outer_radius=outer_radius,
+            inner_radius=inner_radius,
+            start_angle=start_angle,
+            end_angle=end_angle,
+        )
+
+        color = DONUT_COLORS[index % len(DONUT_COLORS)]
+        segments.append(f'<path d="{path}" fill="{color}" />')
+
+        current_angle = end_angle + gap_deg
+
+    return "\n  ".join(segments)
+
+
 def build_wakatime_card(
     *,
     start: dt.date,
@@ -152,89 +226,86 @@ def build_wakatime_card(
     if total_seconds <= 0 or not top_languages:
         return build_empty_card(start=start, end=end)
 
-    colors = ["#61dafb", "#3178c6", "#f7df1e", "#e34f26", "#8cc84b"]
-
-    bar_x = 42
-    bar_y = 104
-    bar_width = 430
-    bar_height = 10
-    current_x = bar_x
-
-    bar_svg: list[str] = []
-    rows_svg: list[str] = []
-
-    for index, (_, seconds) in enumerate(top_languages):
-        percent = seconds / total_seconds
-        width = max(3, bar_width * percent)
-        color = colors[index % len(colors)]
-
-        bar_svg.append(
-            f'<rect x="{current_x:.2f}" y="{bar_y}" width="{width:.2f}" '
-            f'height="{bar_height}" rx="5" fill="{color}" />'
-        )
-        current_x += width
-
+    legend_rows: list[str] = []
     for index, (name, seconds) in enumerate(top_languages):
-        percent = seconds / total_seconds * 100
-        color = colors[index % len(colors)]
-        y = 146 + index * 30
+        color = DONUT_COLORS[index % len(DONUT_COLORS)]
+        percent = (seconds / total_seconds) * 100
+        row_y = 124 + index * 30
 
         safe_name = html.escape(name)
         safe_duration = html.escape(format_duration(seconds))
 
-        rows_svg.append(
+        legend_rows.append(
             f"""
-  <circle cx="52" cy="{y - 5}" r="6" fill="{color}" />
-  <text x="68" y="{y}" class="label">{safe_name}</text>
-  <text x="300" y="{y}" class="value">{safe_duration}</text>
-  <text x="448" y="{y}" class="percent">{percent:.1f}%</text>
+  <circle cx="48" cy="{row_y - 5}" r="6" fill="{color}" />
+  <text x="64" y="{row_y}" class="label">{safe_name}</text>
+  <text x="208" y="{row_y}" class="value">{safe_duration}</text>
+  <text x="320" y="{row_y}" class="percent">{percent:.1f}%</text>
 """
         )
+
+    donut_svg = build_donut_segments(
+        items=top_languages,
+        total_seconds=total_seconds,
+        cx=402,
+        cy=165,
+        outer_radius=58,
+        inner_radius=38,
+    )
+
+    total_duration = html.escape(format_duration(total_seconds))
 
     return f"""<svg width="{CARD_WIDTH}" height="{CARD_HEIGHT}" viewBox="0 0 {CARD_WIDTH} {CARD_HEIGHT}" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .title {{
-      font: 700 26px Arial, Helvetica, sans-serif;
+      font: 700 24px Arial, Helvetica, sans-serif;
       fill: {CARD_PRIMARY};
     }}
     .subtitle {{
       font: 600 13px Arial, Helvetica, sans-serif;
       fill: {CARD_MUTED};
-      opacity: 0.85;
+      opacity: 0.82;
     }}
     .label {{
-      font: 600 15px Arial, Helvetica, sans-serif;
+      font: 700 13px Arial, Helvetica, sans-serif;
       fill: {CARD_MUTED};
     }}
     .value {{
-      font: 600 14px Arial, Helvetica, sans-serif;
+      font: 600 12px Arial, Helvetica, sans-serif;
       fill: {CARD_MUTED};
-      opacity: 0.9;
+      opacity: 0.92;
     }}
     .percent {{
-      font: 600 14px Arial, Helvetica, sans-serif;
+      font: 700 12px Arial, Helvetica, sans-serif;
       fill: {CARD_MUTED};
-      opacity: 0.75;
+      opacity: 0.82;
       text-anchor: end;
     }}
-    .total {{
-      font: 700 18px Arial, Helvetica, sans-serif;
+    .donutLabel {{
+      font: 600 11px Arial, Helvetica, sans-serif;
+      fill: {CARD_MUTED};
+      opacity: 0.72;
+      text-anchor: middle;
+    }}
+    .donutValue {{
+      font: 700 16px Arial, Helvetica, sans-serif;
       fill: {CARD_PRIMARY};
+      text-anchor: middle;
     }}
   </style>
 
   <rect width="{CARD_WIDTH}" height="{CARD_HEIGHT}" rx="8" fill="{CARD_BACKGROUND}" />
 
-  <text x="40" y="54" class="title">WakaTime</text>
-  <text x="40" y="80" class="subtitle">De {html.escape(format_date(start))} até {html.escape(format_date(end))}</text>
+  <text x="36" y="50" class="title">WakaTime</text>
+  <text x="36" y="76" class="subtitle">De {html.escape(format_date(start))} até {html.escape(format_date(end))}</text>
 
-  <rect x="{bar_x}" y="{bar_y}" width="{bar_width}" height="{bar_height}" rx="5" fill="#161b22" />
-  {"".join(bar_svg)}
+  {"".join(legend_rows)}
 
-  {"".join(rows_svg)}
-
-  <text x="40" y="270" class="subtitle">Tempo total</text>
-  <text x="140" y="270" class="total">{html.escape(format_duration(total_seconds))}</text>
+  <circle cx="402" cy="165" r="58" fill="#161b22" />
+  {donut_svg}
+  <circle cx="402" cy="165" r="38" fill="{CARD_BACKGROUND}" />
+  <text x="402" y="158" class="donutLabel">Tempo total</text>
+  <text x="402" y="178" class="donutValue">{total_duration}</text>
 </svg>
 """
 
@@ -243,31 +314,33 @@ def build_empty_card(*, start: dt.date, end: dt.date) -> str:
     return f"""<svg width="{CARD_WIDTH}" height="{CARD_HEIGHT}" viewBox="0 0 {CARD_WIDTH} {CARD_HEIGHT}" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .title {{
-      font: 700 26px Arial, Helvetica, sans-serif;
+      font: 700 24px Arial, Helvetica, sans-serif;
       fill: {CARD_PRIMARY};
     }}
     .subtitle {{
       font: 600 13px Arial, Helvetica, sans-serif;
       fill: {CARD_MUTED};
-      opacity: 0.85;
+      opacity: 0.82;
     }}
     .text {{
-      font: 600 16px Arial, Helvetica, sans-serif;
+      font: 600 15px Arial, Helvetica, sans-serif;
       fill: {CARD_MUTED};
-      opacity: 0.9;
+      opacity: 0.92;
     }}
   </style>
 
   <rect width="{CARD_WIDTH}" height="{CARD_HEIGHT}" rx="8" fill="{CARD_BACKGROUND}" />
 
-  <text x="40" y="54" class="title">WakaTime</text>
-  <text x="40" y="80" class="subtitle">De {html.escape(format_date(start))} até {html.escape(format_date(end))}</text>
+  <text x="36" y="50" class="title">WakaTime</text>
+  <text x="36" y="76" class="subtitle">De {html.escape(format_date(start))} até {html.escape(format_date(end))}</text>
 
-  <text x="40" y="140" class="text">Nenhuma atividade registrada no período.</text>
-  <text x="40" y="172" class="subtitle">O card será atualizado automaticamente quando houver dados.</text>
+  <text x="36" y="138" class="text">Nenhuma atividade registrada no período.</text>
+  <text x="36" y="166" class="subtitle">O card será atualizado automaticamente quando houver dados.</text>
 
-  <rect x="40" y="215" width="420" height="12" rx="6" fill="#161b22" />
-  <rect x="40" y="215" width="80" height="12" rx="6" fill="{CARD_PRIMARY}" opacity="0.85" />
+  <circle cx="402" cy="165" r="58" fill="#161b22" />
+  <circle cx="402" cy="165" r="38" fill="{CARD_BACKGROUND}" />
+  <text x="402" y="160" text-anchor="middle" class="subtitle">Tempo total</text>
+  <text x="402" y="180" text-anchor="middle" class="text">0 min</text>
 </svg>
 """
 
