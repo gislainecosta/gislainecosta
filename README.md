@@ -4,6 +4,9 @@
 
 <p align="left"> 
   <img src="https://komarev.com/ghpvc/?username=gislainecosta&label=Profile%20views&color=blueviolet&style=flat&label=Visitantes:" alt="gislainecosta" />
+  <a href="https://wakatime.com/@e468b5be-5997-430a-9f0a-20be1de6978e">
+    <img src="https://wakatime.com/badge/user/e468b5be-5997-430a-9f0a-20be1de6978e.svg" alt="Total time coded since Jan 1 2020" />
+  </a>
 </p>
 
 <br>
