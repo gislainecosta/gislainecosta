@@ -27,6 +27,11 @@ jobs:
           fetch-depth: 0
           ref: master
 
+      - name: Sync with latest master
+        run: |
+          git fetch origin master
+          git pull --rebase origin master
+
       - name: Generate WakaTime card
         env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
@@ -36,9 +41,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git fetch origin master
-          git pull --rebase origin master
 
           git add assets/wakatime-stats.svg
 
