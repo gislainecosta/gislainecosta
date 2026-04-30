@@ -35,14 +35,22 @@
 
 <div align="center">
 
-<a href="https://github.com/gislainecosta">
-  <img width="49%" alt="Linguagens mais usadas" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gislainecosta&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=20232a" />
-</a>
-<a href="https://wakatime.com/@gislainecosta">
-  <img width="49%" alt="Estatísticas WakaTime" src="https://github-readme-stats.vercel.app/api/wakatime?username=gislainecosta&layout=compact&theme=react&hide_border=true&bg_color=20232a&langs_count=5&range=last_30_days" />
-</a>
+<table>
+  <tr>
+    <td width="50%" align="center" valign="middle">
+      <img width="100%" alt="Linguagens mais usadas" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gislainecosta&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=20232a" />
+    <td width="50%" align="center" valign="middle">
 
-<br>
+<!--START_SECTION:waka-->
+
+Aguardando atualização automática do WakaTime...
+
+<!--END_SECTION:waka-->
+
+</td>
+  </tr>
+</table>
+
 <br>
 
 <a href="https://github.com/gislainecosta">
