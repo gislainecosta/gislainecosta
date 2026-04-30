@@ -5,7 +5,7 @@
 <p align="left"> 
   <img src="https://komarev.com/ghpvc/?username=gislainecosta&label=Profile%20views&color=blueviolet&style=flat&label=Visitantes:" alt="gislainecosta" />
   <a href="https://wakatime.com/@e468b5be-5997-430a-9f0a-20be1de6978e">
-    <img src="https://wakatime.com/badge/user/e468b5be-5997-430a-9f0a-20be1de6978e.svg" alt="Total time coded since Jan 1 2020" />
+    <img src="https://wakatime.com/badge/user/e468b5be-5997-430a-9f0a-20be1de6978e.svg" alt="Tempo total programando desde 1 jan. 2020" />
   </a>
 </p>
 
@@ -38,32 +38,14 @@
 
 <div align="center">
 
-<table>
-  <tr>
-    <td width="50%" align="center" valign="middle">
-      <img width="100%" alt="Linguagens mais usadas" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gislainecosta&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=20232a" />
-    <td width="50%" align="center" valign="middle">
+<a href="https://github.com/gislainecosta">
+  <img width="49%" alt="Linguagens mais usadas" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gislainecosta&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=20232a" />
+</a>
+<a href="https://wakatime.com/@e468b5be-5997-430a-9f0a-20be1de6978e">
+  <img width="49%" alt="Estatísticas WakaTime" src="./assets/wakatime-stats.svg" />
+</a>
 
-<!--START_SECTION:waka-->
-
-```txt
-From: 30 April 2025 - To: 30 April 2026
-
-Total Time: 57 hrs 31 mins
-
-TypeScript   25 hrs 20 mins        ███████████░░░░░░░░░░░░░░   43.40 %
-HTML         8 hrs 11 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.03 %
-CSS          6 hrs 8 mins          ██▓░░░░░░░░░░░░░░░░░░░░░░   10.50 %
-Markdown     4 hrs 7 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   07.05 %
-JSON         3 hrs 32 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.08 %
-```
-
-<!--END_SECTION:waka-->
-
-</td>
-  </tr>
-</table>
-
+<br>
 <br>
 
 <a href="https://github.com/gislainecosta">
