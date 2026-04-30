@@ -43,7 +43,17 @@
 
 <!--START_SECTION:waka-->
 
-Aguardando atualização automática do WakaTime...
+```txt
+From: 31 March 2026 - To: 30 April 2026
+
+Total Time: 20 hrs 17 mins
+
+TypeScript   14 hrs 24 mins        █████████████████▒░░░░░░░   69.67 %
+JSON         1 hr 55 mins          ██▒░░░░░░░░░░░░░░░░░░░░░░   09.27 %
+SQL          1 hr 13 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.93 %
+Markdown     1 hr                  █▒░░░░░░░░░░░░░░░░░░░░░░░   04.85 %
+JavaScript   39 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.22 %
+```
 
 <!--END_SECTION:waka-->
 
