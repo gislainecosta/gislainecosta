@@ -40,6 +40,20 @@ def format_duration(seconds: float) -> str:
     return f"{minutes} min"
 
 
+def split_duration_for_donut(seconds: float) -> tuple[str, str]:
+    total_minutes = int(round(seconds / 60))
+    hours = total_minutes // 60
+    minutes = total_minutes % 60
+
+    if hours and minutes:
+        return f"{hours} h", f"{minutes} min"
+
+    if hours:
+        return f"{hours} h", ""
+
+    return f"{minutes} min", ""
+
+
 def format_date(value: dt.date) -> str:
     months = [
         "jan.",
@@ -116,10 +130,10 @@ def write_placeholder_card(message: str = "Atualizando estatísticas...") -> Non
   <text x="36" y="112" class="text">{safe_message}</text>
   <text x="36" y="142" class="muted">O card será preenchido automaticamente pelo GitHub Actions.</text>
 
-  <circle cx="390" cy="156" r="54" fill="#161b22" />
-  <circle cx="390" cy="156" r="38" fill="{CARD_BACKGROUND}" />
-  <text x="390" y="150" text-anchor="middle" class="muted">WakaTime</text>
-  <text x="390" y="172" text-anchor="middle" class="text">...</text>
+  <circle cx="396" cy="156" r="62" fill="#161b22" />
+  <circle cx="396" cy="156" r="40" fill="{CARD_BACKGROUND}" />
+  <text x="396" y="148" text-anchor="middle" class="muted">WakaTime</text>
+  <text x="396" y="170" text-anchor="middle" class="text">...</text>
 
   <circle cx="48" cy="220" r="6" fill="{CARD_PRIMARY}" />
   <text x="64" y="225" class="muted">Aguardando dados do WakaTime</text>
@@ -239,21 +253,25 @@ def build_wakatime_card(
             f"""
   <circle cx="48" cy="{row_y - 5}" r="6" fill="{color}" />
   <text x="64" y="{row_y}" class="label">{safe_name}</text>
-  <text x="208" y="{row_y}" class="value">{safe_duration}</text>
-  <text x="320" y="{row_y}" class="percent">{percent:.1f}%</text>
+  <text x="168" y="{row_y}" class="value">{safe_duration}</text>
+  <text x="276" y="{row_y}" class="percent">{percent:.1f}%</text>
 """
         )
 
     donut_svg = build_donut_segments(
         items=top_languages,
         total_seconds=total_seconds,
-        cx=402,
-        cy=165,
-        outer_radius=58,
-        inner_radius=38,
+        cx=392,
+        cy=166,
+        outer_radius=66,
+        inner_radius=42,
     )
 
-    total_duration = html.escape(format_duration(total_seconds))
+    total_line_1, total_line_2 = split_duration_for_donut(total_seconds)
+
+    total_line_2_svg = ""
+    if total_line_2:
+        total_line_2_svg = f'<text x="392" y="188" class="donutValueSecondary">{html.escape(total_line_2)}</text>'
 
     return f"""<svg width="{CARD_WIDTH}" height="{CARD_HEIGHT}" viewBox="0 0 {CARD_WIDTH} {CARD_HEIGHT}" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
@@ -267,16 +285,16 @@ def build_wakatime_card(
       opacity: 0.82;
     }}
     .label {{
-      font: 700 13px Arial, Helvetica, sans-serif;
+      font: 700 12px Arial, Helvetica, sans-serif;
       fill: {CARD_MUTED};
     }}
     .value {{
-      font: 600 12px Arial, Helvetica, sans-serif;
+      font: 600 11px Arial, Helvetica, sans-serif;
       fill: {CARD_MUTED};
       opacity: 0.92;
     }}
     .percent {{
-      font: 700 12px Arial, Helvetica, sans-serif;
+      font: 700 11px Arial, Helvetica, sans-serif;
       fill: {CARD_MUTED};
       opacity: 0.82;
       text-anchor: end;
@@ -287,8 +305,13 @@ def build_wakatime_card(
       opacity: 0.72;
       text-anchor: middle;
     }}
-    .donutValue {{
-      font: 700 16px Arial, Helvetica, sans-serif;
+    .donutValuePrimary {{
+      font: 700 14px Arial, Helvetica, sans-serif;
+      fill: {CARD_PRIMARY};
+      text-anchor: middle;
+    }}
+    .donutValueSecondary {{
+      font: 700 13px Arial, Helvetica, sans-serif;
       fill: {CARD_PRIMARY};
       text-anchor: middle;
     }}
@@ -301,11 +324,12 @@ def build_wakatime_card(
 
   {"".join(legend_rows)}
 
-  <circle cx="402" cy="165" r="58" fill="#161b22" />
+  <circle cx="392" cy="166" r="66" fill="#161b22" />
   {donut_svg}
-  <circle cx="402" cy="165" r="38" fill="{CARD_BACKGROUND}" />
-  <text x="402" y="158" class="donutLabel">Tempo total</text>
-  <text x="402" y="178" class="donutValue">{total_duration}</text>
+  <circle cx="392" cy="166" r="42" fill="{CARD_BACKGROUND}" />
+  <text x="392" y="150" class="donutLabel">Tempo total</text>
+  <text x="392" y="172" class="donutValuePrimary">{html.escape(total_line_1)}</text>
+  {total_line_2_svg}
 </svg>
 """
 
@@ -337,10 +361,10 @@ def build_empty_card(*, start: dt.date, end: dt.date) -> str:
   <text x="36" y="138" class="text">Nenhuma atividade registrada no período.</text>
   <text x="36" y="166" class="subtitle">O card será atualizado automaticamente quando houver dados.</text>
 
-  <circle cx="402" cy="165" r="58" fill="#161b22" />
-  <circle cx="402" cy="165" r="38" fill="{CARD_BACKGROUND}" />
-  <text x="402" y="160" text-anchor="middle" class="subtitle">Tempo total</text>
-  <text x="402" y="180" text-anchor="middle" class="text">0 min</text>
+  <circle cx="392" cy="166" r="66" fill="#161b22" />
+  <circle cx="392" cy="166" r="42" fill="{CARD_BACKGROUND}" />
+  <text x="392" y="160" text-anchor="middle" class="subtitle">Tempo total</text>
+  <text x="392" y="180" text-anchor="middle" class="text">0 min</text>
 </svg>
 """
 
