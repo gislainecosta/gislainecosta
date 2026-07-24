@@ -4,84 +4,29 @@
       font: 700 24px Arial, Helvetica, sans-serif;
       fill: #61dafb;
     }
-    .subtitle {
-      font: 600 13px Arial, Helvetica, sans-serif;
-      fill: #ffffff;
-      opacity: 0.82;
-    }
-    .label {
-      font: 700 12px Arial, Helvetica, sans-serif;
-      fill: #ffffff;
-    }
-    .value {
-      font: 600 11px Arial, Helvetica, sans-serif;
+    .text {
+      font: 600 16px Arial, Helvetica, sans-serif;
       fill: #ffffff;
       opacity: 0.92;
     }
-    .percent {
-      font: 700 11px Arial, Helvetica, sans-serif;
+    .muted {
+      font: 500 13px Arial, Helvetica, sans-serif;
       fill: #ffffff;
-      opacity: 0.82;
-      text-anchor: end;
-    }
-    .donutLabel {
-      font: 600 11px Arial, Helvetica, sans-serif;
-      fill: #ffffff;
-      opacity: 0.72;
-      text-anchor: middle;
-    }
-    .donutValuePrimary {
-      font: 700 14px Arial, Helvetica, sans-serif;
-      fill: #61dafb;
-      text-anchor: middle;
-    }
-    .donutValueSecondary {
-      font: 700 13px Arial, Helvetica, sans-serif;
-      fill: #61dafb;
-      text-anchor: middle;
+      opacity: 0.68;
     }
   </style>
 
   <rect width="500" height="300" rx="8" fill="#20232a" />
 
-  <text x="36" y="50" class="title">WakaTime</text>
-  <text x="36" y="76" class="subtitle">De 23 jul. 2025 até 23 jul. 2026</text>
-
-  
-  <circle cx="48" cy="119" r="6" fill="#61dafb" />
-  <text x="64" y="124" class="label">TypeScript</text>
-  <text x="168" y="124" class="value">25 h 7 min</text>
-  <text x="276" y="124" class="percent">54.2%</text>
-
-  <circle cx="48" cy="149" r="6" fill="#3b82f6" />
-  <text x="64" y="154" class="label">Markdown</text>
-  <text x="168" y="154" class="value">4 h 54 min</text>
-  <text x="276" y="154" class="percent">10.6%</text>
-
-  <circle cx="48" cy="179" r="6" fill="#f6d32d" />
-  <text x="64" y="184" class="label">JSON</text>
-  <text x="168" y="184" class="value">3 h 28 min</text>
-  <text x="276" y="184" class="percent">7.5%</text>
-
-  <circle cx="48" cy="209" r="6" fill="#f97316" />
-  <text x="64" y="214" class="label">Prisma</text>
-  <text x="168" y="214" class="value">2 h 33 min</text>
-  <text x="276" y="214" class="percent">5.5%</text>
-
-  <circle cx="48" cy="239" r="6" fill="#8bc34a" />
-  <text x="64" y="244" class="label">Outros</text>
-  <text x="168" y="244" class="value">10 h 16 min</text>
-  <text x="276" y="244" class="percent">22.2%</text>
-
+  <text x="36" y="54" class="title">WakaTime</text>
+  <text x="36" y="112" class="text">Atualizando estatísticas...</text>
+  <text x="36" y="142" class="muted">O card será preenchido automaticamente pelo GitHub Actions.</text>
 
   <circle cx="392" cy="166" r="66" fill="#161b22" />
-  <path d="M 392.00 100.00 A 66 66 0 1 1 380.74 231.03 L 384.83 207.38 A 42 42 0 1 0 392.00 124.00 Z" fill="#61dafb" />
-  <path d="M 378.47 230.60 A 66 66 0 0 1 342.28 209.40 L 360.36 193.62 A 42 42 0 0 0 383.39 207.11 Z" fill="#3b82f6" />
-  <path d="M 340.79 207.64 A 66 66 0 0 1 327.67 180.74 L 351.06 175.38 A 42 42 0 0 0 359.41 192.50 Z" fill="#f6d32d" />
-  <path d="M 327.19 178.48 A 66 66 0 0 1 326.70 156.40 L 350.45 159.89 A 42 42 0 0 0 350.76 173.94 Z" fill="#f97316" />
-  <path d="M 327.08 154.13 A 66 66 0 0 1 389.70 100.04 L 390.53 124.03 A 42 42 0 0 0 350.69 158.44 Z" fill="#8bc34a" />
   <circle cx="392" cy="166" r="42" fill="#20232a" />
-  <text x="392" y="150" class="donutLabel">Tempo total</text>
-  <text x="392" y="172" class="donutValuePrimary">46 h</text>
-  <text x="392" y="188" class="donutValueSecondary">19 min</text>
+  <text x="392" y="158" text-anchor="middle" class="muted">WakaTime</text>
+  <text x="392" y="180" text-anchor="middle" class="text">...</text>
+
+  <circle cx="48" cy="220" r="6" fill="#61dafb" />
+  <text x="64" y="225" class="muted">Aguardando dados do WakaTime</text>
 </svg>
