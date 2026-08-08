@@ -45,7 +45,7 @@
   <rect width="500" height="300" rx="8" fill="#20232a" />
 
   <text x="36" y="50" class="title">WakaTime</text>
-  <text x="36" y="76" class="subtitle">De 07 ago. 2025 até 07 ago. 2026</text>
+  <text x="36" y="76" class="subtitle">De 08 ago. 2025 até 08 ago. 2026</text>
 
   
   <circle cx="48" cy="119" r="6" fill="#61dafb" />
@@ -75,13 +75,13 @@
 
 
   <circle cx="392" cy="166" r="66" fill="#161b22" />
-  <path d="M 392.00 100.00 A 66 66 0 1 1 381.89 231.22 L 385.57 207.50 A 42 42 0 1 0 392.00 124.00 Z" fill="#61dafb" />
-  <path d="M 379.62 230.83 A 66 66 0 0 1 343.63 210.91 L 361.22 194.58 A 42 42 0 0 0 384.12 207.25 Z" fill="#3b82f6" />
-  <path d="M 342.09 209.19 A 66 66 0 0 1 327.62 180.51 L 351.03 175.24 A 42 42 0 0 0 360.24 193.49 Z" fill="#f6d32d" />
-  <path d="M 327.15 178.26 A 66 66 0 0 1 326.57 157.33 L 350.36 160.48 A 42 42 0 0 0 350.73 173.80 Z" fill="#f97316" />
-  <path d="M 326.91 155.05 A 66 66 0 0 1 389.70 100.04 L 390.53 124.03 A 42 42 0 0 0 350.58 159.03 Z" fill="#8bc34a" />
+  <path d="M 392.00 100.00 A 66 66 0 1 1 381.92 231.23 L 385.59 207.51 A 42 42 0 1 0 392.00 124.00 Z" fill="#61dafb" />
+  <path d="M 379.65 230.83 A 66 66 0 0 1 343.66 210.93 L 361.24 194.59 A 42 42 0 0 0 384.14 207.26 Z" fill="#3b82f6" />
+  <path d="M 342.12 209.22 A 66 66 0 0 1 327.62 180.55 L 351.03 175.26 A 42 42 0 0 0 360.26 193.50 Z" fill="#f6d32d" />
+  <path d="M 327.16 178.30 A 66 66 0 0 1 326.57 157.37 L 350.36 160.51 A 42 42 0 0 0 350.74 173.83 Z" fill="#f97316" />
+  <path d="M 326.91 155.10 A 66 66 0 0 1 389.70 100.04 L 390.53 124.03 A 42 42 0 0 0 350.58 159.06 Z" fill="#8bc34a" />
   <circle cx="392" cy="166" r="42" fill="#20232a" />
   <text x="392" y="150" class="donutLabel">Tempo total</text>
   <text x="392" y="172" class="donutValuePrimary">48 h</text>
-  <text x="392" y="188" class="donutValueSecondary">53 min</text>
+  <text x="392" y="188" class="donutValueSecondary">54 min</text>
 </svg>
