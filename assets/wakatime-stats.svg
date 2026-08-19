@@ -45,43 +45,43 @@
   <rect width="500" height="300" rx="8" fill="#20232a" />
 
   <text x="36" y="50" class="title">WakaTime</text>
-  <text x="36" y="76" class="subtitle">De 18 ago. 2025 até 18 ago. 2026</text>
+  <text x="36" y="76" class="subtitle">De 19 ago. 2025 até 19 ago. 2026</text>
 
   
   <circle cx="48" cy="119" r="6" fill="#61dafb" />
   <text x="64" y="124" class="label">TypeScript</text>
-  <text x="168" y="124" class="value">37 h 2 min</text>
-  <text x="276" y="124" class="percent">61.6%</text>
+  <text x="168" y="124" class="value">38 h 58 min</text>
+  <text x="276" y="124" class="percent">62.2%</text>
 
   <circle cx="48" cy="149" r="6" fill="#3b82f6" />
   <text x="64" y="154" class="label">Markdown</text>
   <text x="168" y="154" class="value">5 h 30 min</text>
-  <text x="276" y="154" class="percent">9.2%</text>
+  <text x="276" y="154" class="percent">8.8%</text>
 
   <circle cx="48" cy="179" r="6" fill="#f6d32d" />
   <text x="64" y="184" class="label">JSON</text>
-  <text x="168" y="184" class="value">3 h 58 min</text>
-  <text x="276" y="184" class="percent">6.6%</text>
+  <text x="168" y="184" class="value">4 h 17 min</text>
+  <text x="276" y="184" class="percent">6.8%</text>
 
   <circle cx="48" cy="209" r="6" fill="#f97316" />
   <text x="64" y="214" class="label">Prisma</text>
   <text x="168" y="214" class="value">2 h 39 min</text>
-  <text x="276" y="214" class="percent">4.4%</text>
+  <text x="276" y="214" class="percent">4.2%</text>
 
   <circle cx="48" cy="239" r="6" fill="#8bc34a" />
   <text x="64" y="244" class="label">Outros</text>
-  <text x="168" y="244" class="value">10 h 58 min</text>
-  <text x="276" y="244" class="percent">18.2%</text>
+  <text x="168" y="244" class="value">11 h 17 min</text>
+  <text x="276" y="244" class="percent">18.0%</text>
 
 
   <circle cx="392" cy="166" r="66" fill="#161b22" />
-  <path d="M 392.00 100.00 A 66 66 0 1 1 353.59 219.67 L 367.55 200.15 A 42 42 0 1 0 392.00 124.00 Z" fill="#61dafb" />
-  <path d="M 351.74 218.30 A 66 66 0 0 1 330.13 188.97 L 352.63 180.62 A 42 42 0 0 0 366.38 199.28 Z" fill="#3b82f6" />
-  <path d="M 329.36 186.79 A 66 66 0 0 1 326.22 160.59 L 350.14 162.56 A 42 42 0 0 0 352.14 179.23 Z" fill="#f6d32d" />
-  <path d="M 326.45 158.30 A 66 66 0 0 1 330.87 141.13 L 353.10 150.17 A 42 42 0 0 0 350.29 161.10 Z" fill="#f97316" />
-  <path d="M 331.77 139.01 A 66 66 0 0 1 389.70 100.04 L 390.53 124.03 A 42 42 0 0 0 353.67 148.82 Z" fill="#8bc34a" />
+  <path d="M 392.00 100.00 A 66 66 0 1 1 351.78 218.33 L 366.41 199.30 A 42 42 0 1 0 392.00 124.00 Z" fill="#61dafb" />
+  <path d="M 349.98 216.89 A 66 66 0 0 1 329.88 188.28 L 352.47 180.18 A 42 42 0 0 0 365.26 198.39 Z" fill="#3b82f6" />
+  <path d="M 329.14 186.10 A 66 66 0 0 1 326.38 158.89 L 350.24 161.48 A 42 42 0 0 0 352.00 178.79 Z" fill="#f6d32d" />
+  <path d="M 326.67 156.61 A 66 66 0 0 1 331.24 140.23 L 353.34 149.60 A 42 42 0 0 0 350.43 160.02 Z" fill="#f97316" />
+  <path d="M 332.18 138.12 A 66 66 0 0 1 389.70 100.04 L 390.53 124.03 A 42 42 0 0 0 353.93 148.26 Z" fill="#8bc34a" />
   <circle cx="392" cy="166" r="42" fill="#20232a" />
   <text x="392" y="150" class="donutLabel">Tempo total</text>
-  <text x="392" y="172" class="donutValuePrimary">60 h</text>
-  <text x="392" y="188" class="donutValueSecondary">6 min</text>
+  <text x="392" y="172" class="donutValuePrimary">62 h</text>
+  <text x="392" y="188" class="donutValueSecondary">42 min</text>
 </svg>
