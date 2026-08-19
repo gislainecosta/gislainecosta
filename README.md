@@ -24,7 +24,7 @@
 <img
   width="49%"
   alt="Sequência de contribuições no GitHub"
-  src="https://streak-stats.demolab.com/?user=gislainecosta&theme=react&hide_border=true&background=20232a&locale=pt_BR"
+  src="./assets/github-streak.svg"
 />
 
 </div>
