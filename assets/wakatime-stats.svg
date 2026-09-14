@@ -45,7 +45,7 @@
   <rect width="500" height="300" rx="8" fill="#20232a" />
 
   <text x="36" y="50" class="title">WakaTime</text>
-  <text x="36" y="76" class="subtitle">De 13 set. 2025 até 13 set. 2026</text>
+  <text x="36" y="76" class="subtitle">De 14 set. 2025 até 14 set. 2026</text>
 
   
   <circle cx="48" cy="119" r="6" fill="#61dafb" />
@@ -70,18 +70,18 @@
 
   <circle cx="48" cy="239" r="6" fill="#8bc34a" />
   <text x="64" y="244" class="label">Outros</text>
-  <text x="168" y="244" class="value">23 h 51 min</text>
+  <text x="168" y="244" class="value">23 h 52 min</text>
   <text x="276" y="244" class="percent">23.4%</text>
 
 
   <circle cx="392" cy="166" r="66" fill="#161b22" />
-  <path d="M 392.00 100.00 A 66 66 0 1 1 369.21 227.94 L 377.50 205.42 A 42 42 0 1 0 392.00 124.00 Z" fill="#61dafb" />
-  <path d="M 367.06 227.11 A 66 66 0 0 1 339.78 206.36 L 358.77 191.68 A 42 42 0 0 0 376.13 204.89 Z" fill="#3b82f6" />
-  <path d="M 338.40 204.51 A 66 66 0 0 1 328.29 183.25 L 351.46 176.97 A 42 42 0 0 0 357.89 190.51 Z" fill="#f6d32d" />
-  <path d="M 327.73 181.01 A 66 66 0 0 1 326.17 161.32 L 350.11 163.02 A 42 42 0 0 0 351.10 175.55 Z" fill="#f97316" />
-  <path d="M 326.37 159.03 A 66 66 0 0 1 389.70 100.04 L 390.53 124.03 A 42 42 0 0 0 350.24 161.56 Z" fill="#8bc34a" />
+  <path d="M 392.00 100.00 A 66 66 0 1 1 369.23 227.95 L 377.51 205.42 A 42 42 0 1 0 392.00 124.00 Z" fill="#61dafb" />
+  <path d="M 367.08 227.12 A 66 66 0 0 1 339.79 206.38 L 358.78 191.70 A 42 42 0 0 0 376.14 204.89 Z" fill="#3b82f6" />
+  <path d="M 338.42 204.53 A 66 66 0 0 1 328.30 183.28 L 351.46 176.99 A 42 42 0 0 0 357.90 190.52 Z" fill="#f6d32d" />
+  <path d="M 327.74 181.04 A 66 66 0 0 1 326.16 161.35 L 350.10 163.04 A 42 42 0 0 0 351.11 175.57 Z" fill="#f97316" />
+  <path d="M 326.37 159.06 A 66 66 0 0 1 389.70 100.04 L 390.53 124.03 A 42 42 0 0 0 350.23 161.58 Z" fill="#8bc34a" />
   <circle cx="392" cy="166" r="42" fill="#20232a" />
   <text x="392" y="150" class="donutLabel">Tempo total</text>
   <text x="392" y="172" class="donutValuePrimary">101 h</text>
-  <text x="392" y="188" class="donutValueSecondary">54 min</text>
+  <text x="392" y="188" class="donutValueSecondary">55 min</text>
 </svg>
