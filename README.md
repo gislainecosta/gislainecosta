@@ -1,7 +1,7 @@
 <h1 align="center">Olá 👋, eu sou a Gislaine</h1>
 
 <h3 align="center">
-  Desenvolvedora Web Full Stack e doutoranda em Zootecnia pela UFPR, com atuação na interface entre programação, ciência de dados, soluções digitais, Zootecnia de Precisão e produção animal.
+  Desenvolvedora Web Full Stack e doutoranda em Zootecnia pela UFPR, com atuação na interface entre programação, ciência de dados, soluções digitais, zootecnia de precisão e produção animal.
 </h3>
 
 <p align="left">
