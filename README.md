@@ -5,8 +5,8 @@
 </h3>
 <br>
 <p align="left">
-  <img src="./assets/profile-views-badge.svg?v=1" alt="Número de visitantes do perfil" />
-  <img src="./assets/wakatime-badge.svg?v=1" alt="Tempo total registrado no WakaTime" />
+  <img src="./assets/profile-views-badge.svg?v=20261001175138" alt="Número de visitantes do perfil" />
+  <img src="./assets/wakatime-badge.svg?v=20261001175138" alt="Tempo total registrado no WakaTime" />
   <a href="https://www.linkedin.com/in/gislainecostapereira/"><img
     src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white"
     alt="LinkedIn"
@@ -55,7 +55,7 @@
 <img
   width="49%"
   alt="Estatísticas do WakaTime"
-  src="./assets/wakatime-stats.svg?v=20261001031935"
+  src="./assets/wakatime-stats.svg?v=20261001175138"
 />
 
 <br>

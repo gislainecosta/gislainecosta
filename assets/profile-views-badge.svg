@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="127" height="20" role="img" aria-label="Visitantes: 1.521">
-  <title>Visitantes: 1.521</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="127" height="20" role="img" aria-label="Visitantes: 1.526">
+  <title>Visitantes: 1.526</title>
 
   <linearGradient id="s" x2="0" y2="100%">
     <stop
@@ -65,11 +65,11 @@
       y="15"
       fill="#010101"
       fill-opacity=".30"
-    >1.521</text>
+    >1.526</text>
 
     <text
       x="103.5"
       y="14"
-    >1.521</text>
+    >1.526</text>
   </g>
 </svg>
