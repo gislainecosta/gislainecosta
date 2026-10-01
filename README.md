@@ -3,7 +3,7 @@
 <h3 align="center">
   Desenvolvedora Web Full Stack e doutoranda em Zootecnia pela UFPR, com atuação na interface entre programação, ciência de dados, soluções digitais, zootecnia de precisão e produção animal.
 </h3>
-
+<br>
 <p align="left">
   <img
     src="./assets/profile-views-badge.svg?v=1"
@@ -24,8 +24,6 @@
     height="1"
   />
 </p>
-
-<br>
 
 ## Contatos
 
