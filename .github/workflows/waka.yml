@@ -1,28 +1,25 @@
-name: WakaTime Card
+name: Profile Stats
 
 on:
   workflow_dispatch:
   schedule:
     - cron: "0 12 * * *"
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
-
 permissions:
   contents: write
 
 concurrency:
-  group: wakatime-card-${{ github.ref }}
+  group: profile-stats-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
-  update-wakatime-card:
-    name: Update WakaTime SVG card
+  update-profile-stats:
+    name: Update profile statistics
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
           ref: master
@@ -32,22 +29,33 @@ jobs:
           git fetch origin master
           git pull --rebase origin master
 
-      - name: Generate WakaTime card
+      - name: Generate WakaTime statistics card
         env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-        run: python3 scripts/generate-wakatime-card.py
+        run: |
+          python3 scripts/generate-wakatime-card.py
 
-      - name: Commit and push updated WakaTime card
+      - name: Generate profile badges
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        run: |
+          python3 scripts/generate-profile-badges.py
+
+      - name: Commit and push updated statistics
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add assets/wakatime-stats.svg
+          git add \
+            assets/wakatime-stats.svg \
+            assets/wakatime-badge.svg \
+            assets/profile-views-badge.svg \
+            README.md
 
           if git diff --cached --quiet; then
-            echo "No WakaTime card changes to commit."
+            echo "No profile statistics changes to commit."
             exit 0
           fi
 
-          git commit -m "Update WakaTime stats card"
+          git commit -m "Update profile stats"
           git push origin HEAD:master
