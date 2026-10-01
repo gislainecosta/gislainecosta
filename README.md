@@ -6,7 +6,7 @@
 
 <p align="left">
   <img
-    src="https://komarev.com/ghpvc/?username=gislainecosta&label=Visitantes&color=blueviolet&style=flat"
+    src="https://komarev.com/ghpvc/?username=gislainecosta&label=Visitantes&color=blueviolet&style=flat&base=0"
     alt="Número de visitantes do perfil"
   />
   <a href="https://wakatime.com/@e468b5be-5997-430a-9f0a-20be1de6978e"><img
