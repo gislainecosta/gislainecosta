@@ -5,37 +5,18 @@
 </h3>
 <br>
 <p align="left">
-  <img
-    src="./assets/profile-views-badge.svg?v=1"
-    alt="Número de visitantes do perfil"
-  />
-
-  <a href="https://wakatime.com/@e468b5be-5997-430a-9f0a-20be1de6978e">
-    <img
-      src="./assets/wakatime-badge.svg?v=1"
-      alt="Tempo total registrado no WakaTime"
-    />
-  </a>
-
-  <img
-    src="https://komarev.com/ghpvc/?username=gislainecosta&style=pixel"
-    alt=""
-    width="1"
-    height="1"
-  />
+  <img src="./assets/profile-views-badge.svg?v=1" alt="Número de visitantes do perfil" />
+  <img src="./assets/wakatime-badge.svg?v=1" alt="Tempo total registrado no WakaTime" />
+  <a href="https://www.linkedin.com/in/gislainecostapereira/"><img
+    src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white"
+    alt="LinkedIn"
+  /></a>
+  <a href="mailto:devgislainecosta@gmail.com"><img
+    src="https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white"
+    alt="Gmail"
+  /></a>
+  <img src="https://komarev.com/ghpvc/?username=gislainecosta&style=pixel" alt="" />
 </p>
-
-## Contatos
-
-<a href="https://www.linkedin.com/in/gislainecostapereira/"><img
-  src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white"
-  alt="LinkedIn"
-/></a>
-<a href="mailto:devgislainecosta@gmail.com"><img
-  src="https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white"
-  alt="Gmail"
-/></a>
-
 <br>
 
 ## Ferramentas e Linguagens
