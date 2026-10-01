@@ -22,6 +22,13 @@ CARD_MUTED = "#ffffff"
 MAX_ROWS = 5
 TOP_LANGUAGES_BEFORE_OTHERS = 4
 
+AGGREGATED_OTHER_NAMES = {
+    "other",
+    "others",
+    "outro",
+    "outros",
+}
+
 DONUT_COLORS = [
     "#61dafb",
     "#3b82f6",
@@ -201,17 +208,29 @@ def collect_languages(payload: dict) -> dict[str, float]:
 
 
 def build_display_languages(languages: dict[str, float]) -> list[tuple[str, float]]:
-    sorted_languages = sorted(
-        languages.items(),
+    real_languages: list[tuple[str, float]] = []
+    others_seconds = 0.0
+
+    for name, seconds in languages.items():
+        normalized_name = name.strip().casefold()
+
+        if normalized_name in AGGREGATED_OTHER_NAMES:
+            others_seconds += seconds
+            continue
+
+        real_languages.append((name, seconds))
+
+    real_languages.sort(
         key=lambda item: item[1],
         reverse=True,
     )
 
-    if len(sorted_languages) <= MAX_ROWS:
-        return sorted_languages
+    visible_languages = real_languages[:TOP_LANGUAGES_BEFORE_OTHERS]
 
-    visible_languages = sorted_languages[:TOP_LANGUAGES_BEFORE_OTHERS]
-    others_seconds = sum(seconds for _, seconds in sorted_languages[TOP_LANGUAGES_BEFORE_OTHERS:])
+    others_seconds += sum(
+        seconds
+        for _, seconds in real_languages[TOP_LANGUAGES_BEFORE_OTHERS:]
+    )
 
     if others_seconds > 0:
         visible_languages.append(("Outros", others_seconds))
