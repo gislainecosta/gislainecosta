@@ -6,13 +6,23 @@
 
 <p align="left">
   <img
-    src="https://komarev.com/ghpvc/?username=gislainecosta&label=Visitantes&color=blueviolet&style=flat&base=0"
+    src="./assets/profile-views-badge.svg?v=1"
     alt="Número de visitantes do perfil"
   />
-  <a href="https://wakatime.com/@e468b5be-5997-430a-9f0a-20be1de6978e"><img
-    src="https://wakatime.com/badge/user/e468b5be-5997-430a-9f0a-20be1de6978e.svg"
-    alt="Tempo de programação registrado no WakaTime"
-  /></a>
+
+  <a href="https://wakatime.com/@e468b5be-5997-430a-9f0a-20be1de6978e">
+    <img
+      src="./assets/wakatime-badge.svg?v=1"
+      alt="Tempo total registrado no WakaTime"
+    />
+  </a>
+
+  <img
+    src="https://komarev.com/ghpvc/?username=gislainecosta&style=pixel"
+    alt=""
+    width="1"
+    height="1"
+  />
 </p>
 
 <br>
