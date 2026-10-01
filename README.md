@@ -66,7 +66,7 @@
 <img
   width="49%"
   alt="Estatísticas do WakaTime"
-  src="./assets/wakatime-stats.svg?v=5"
+  src="./assets/wakatime-stats.svg?v=20261001031935"
 />
 
 <br>
